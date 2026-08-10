@@ -110,7 +110,7 @@ def solve(courses: List[Course], rooms: List[Room], nb_days, lunch_slots=[2,3,4]
             if r.capacity >= c.headcount and any(rt in c.room_types for rt in r.room_types)
         ]
         if not valid_rooms:
-            raise ValueError(f"Aucune salle valide pour cours {c.id}")
+            raise ValueError(f"Aucune salle valide pour cours {c.name} : room_types={c.room_types}, headcount={c.headcount}")
 
         room_domain = cp_model.Domain.FromValues(valid_rooms)
 
