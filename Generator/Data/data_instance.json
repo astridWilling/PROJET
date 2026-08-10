@@ -1,13 +1,15 @@
 {
-  "_comment": "Fichier de specs statiques. Complémenter progressivement — l'extractor utilise ces valeurs en priorité et revient aux déductions CSV si un champ est absent.",
+  "meta": {
+    "nb_weeks": 15,
+    "nb_days_per_week": 5,
+    "nb_slots_per_day": 8,
+    "lunch_slots": [3,4]
+  },
 
-  "departments": [
-    { "id": "info",  "name": "Informatique / Électronique" },
-    { "id": "maths", "name": "Mathématiques" },
-    { "id": "phys",  "name": "Physique" },
-    { "id": "shs",   "name": "Sciences Humaines et Sociales" },
-    { "id": "sport", "name": "Sport" }
-  ],
+  "time_grid": {
+    "slot_duration_min": 75,
+    "day_start": "08h00"
+  },
 
   "buildings": [
     {
@@ -115,66 +117,179 @@
   ],
 
   "courses": [
-    { "name": "Electro", "dept": "phys",  "room_types": ["TD", "TP_Phys", "CM"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 72 },
-    { "name": "Elec",    "dept": "phys",  "room_types": ["TD", "CM"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 70 },
-    { "name": "SI",      "dept": "meca",  "room_types": ["TP_SI"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 65 },
-    { "name": "Mat2",    "dept": "maths", "room_types": ["TD", "CM"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 71 },
-    { "name": "Thermo",  "dept": "phys",  "room_types": ["TD"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 74 },
-    { "name": "InvSym",  "dept": "maths",  "room_types": ["TD"],
-      "groups": ["1_G"], "exam_day": 73, "preferred_buildings": ["GMM", "Principal"] },
-    { "name": "Penser",  "dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 45, "preferred_buildings": ["CSH"] },
-    { "name": "Esp",     "dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 60, "preferred_buildings": ["CSH"] },
-    { "name": "Ang",     "dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_C", "1_G"], "exam_day": 65, "preferred_buildings": ["CSH"] },
-    { "name": "Expr",    "dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_C", "1_G"], "exam_day": 64, "preferred_buildings": ["CSH"] },
-    { "name": "ProfComm","dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_E"], "exam_day": null, "preferred_building": ["CSH"] },
-    { "name": "Tutorat", "dept": null,   "room_types": ["TD"],
-      "groups": ["1_E"], "exam_day": null, "preferred_buildings": ["GP"] },
-    { "name": "Sport",   "dept": "sport", "room_types": ["APS"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": 69 },
+    {"id": 11, "name": "Electro_CM_1C", "teacher": "T_Tom", "group": "1_C",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference": ""},
+    {"id": 12, "name": "Electro_TD_1C", "teacher": "T_Tom", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [],  "ordering_preference": ""},
+    {"id": 13, "name": "Electro_TP_1C", "teacher": "T_Eric", "group": "1_C",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    
+    {"id": 21, "name": "Electro_CM_1E", "teacher": "T_Tom", "group": "1_E",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference":""},
+    {"id": 22, "name": "Electro_TD_1E", "teacher": "T_Chris", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [], "ordering_preference":""},
+    {"id": 23, "name": "Electro_TP_1E", "teacher": "T_Chris", "group": "1_E",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
 
-    { "name": "Exam_Electro", "dept": null,  "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Elec",    "dept": null,  "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_SI", "dept": null,  "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Mat2", "dept": null, "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Thermo",  "dept": null,  "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_InvSym",  "dept": null,  "room_types": ["Exam"],
-      "groups": ["1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Penser",  "dept": null,   "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Esp", "dept": null,   "room_types": ["Exam"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Ang", "dept": null,   "room_types": ["Exam"],
-      "groups": ["1_C", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Expr",    "dept": null,   "room_types": ["Exam"],
-      "groups": ["1_C", "1_G"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "ProfComm","dept": "shs",   "room_types": ["TD"],
-      "groups": ["1_E"], "exam_day": null, "preferred_building": ["Exam"] },
-    { "name": "Tutorat", "dept": null,   "room_types": ["TD"],
-      "groups": ["1_E"], "exam_day": null, "preferred_buildings": ["Exam"] },
-    { "name": "Exam_Sport",   "dept": null, "room_types": ["APS"],
-      "groups": ["1_C", "1_E", "1_G"], "exam_day": null }
+    {"id": 31, "name": "Electro_CM_1G", "teacher": "T_Tom", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 32, "name": "Electro_TD_1G", "teacher": "T_Tom", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    {"id": 33, "name": "Electro_TP_1G", "teacher": "T_Tom", "group": "1_G",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    
+    
+    {"id": 41, "name": "Elec_CM_1C", "teacher": "T_Gégé", "group": "1_C",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference":""},
+    {"id": 42, "name": "Elec_TD_1C", "teacher": "T_Chris", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [], "ordering_preference":""},
+    
+    {"id": 51, "name": "Elec_CM_1E", "teacher": "T_Chris", "group": "1_E",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference":""},
+    {"id": 52, "name": "Elec_TD_1E", "teacher": "T_Gégé", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [], "ordering_preference":""},
+
+    {"id": 61, "name": "Elec_CM_1G", "teacher": "T_Gégé", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 62, "name": "Elec_TD_1G", "teacher": "T_Gégé", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    
+
+    
+    {"id": 71, "name": "SI_CM_1C", "teacher": "T_Remy", "group": "1_C",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 73, "name": "SI_TP_1C", "teacher": "T_Remy", "group": "1_C",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    
+    {"id": 81, "name": "SI_CM_1E", "teacher": "T_Remy", "group": "1_E",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 83, "name": "SI_TP_1E", "teacher": "T_Chris", "group": "1_E",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    {"id": 91, "name": "SI_CM_1G", "teacher": "T_Remy", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 93, "name": "SI_TP_1G", "teacher": "T_Remy", "group": "1_G",
+          "room_types": ["TP"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+
+    
+    {"id": 101, "name": "Mat2_CM_1C", "teacher": "T_Euler", "group": "1_C",
+          "room_types": ["CM"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    {"id": 102, "name": "Mat2_TD_1C", "teacher": "T_Gauss", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    
+    {"id": 111, "name": "Mat2_CM_1E", "teacher": "T_Euler", "group": "1_E",
+          "room_types": ["CM"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    {"id": 112, "name": "Electro_TD_1E", "teacher": "T_Gauss", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    {"id": 121, "name": "Mat2_CM_1G", "teacher": "T_Euler", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    {"id": 122, "name": "Mat2_TD_1G", "teacher": "T_Gauss", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    
+    {"id": 131, "name": "Thermo_CM_1C", "teacher": "T_Max", "group": "1_C",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference":""},
+    {"id": 132, "name": "Thermo_TD_1C", "teacher": "T_Max", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [], "ordering_preference":""},
+    
+    {"id": 141, "name": "Thermo_CM_1E", "teacher": "T_Max", "group": "1_E",
+          "room_types": ["CM"], "slots_per_week": 3, "sessions": [], "ordering_preference":""},
+    {"id": 142, "name": "Thermo_TD_1E", "teacher": "T_Max", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 4, "sessions": [], "ordering_preference":""},
+
+    {"id": 151, "name": "Thermo_CM_1G", "teacher": "T_Max", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+    {"id": 152, "name": "Thermo_TD_1G", "teacher": "T_Mayer", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+
+    
+        
+    {"id": 161, "name": "InvSym_CM_1G", "teacher": "T_Lau", "group": "1_G",
+          "room_types": ["CM"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    {"id": 162, "name": "InvSym_TD_1G", "teacher": "T_Lau", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+
+
+    {"id": 172, "name": "Penser_TD_1C", "teacher": "T_Seb", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":"middle"},
+    
+    {"id": 182, "name": "Penser_TD_1E", "teacher": "T_Jo", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":"middle"},
+
+    {"id": 192, "name": "Penser_TD_1G", "teacher": "T_Gwen", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":"middle"},
+
+    
+    
+
+    {"id": 202, "name": "Esp_TD_1C", "teacher": "T_Leticia", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    {"id": 212, "name": "Esp_TD_1E", "teacher": "T_Fiore", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    {"id": 222, "name": "Esp_TD_1G", "teacher": "T_Leticia", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 1, "sessions": [], "ordering_preference":""},
+
+    
+    
+    
+    {"id": 232, "name": "Ang_TD_1C", "teacher": "T_Kate", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+
+    {"id": 252, "name": "Ang_TD_1G", "teacher": "T_Kate", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+
+    
+    
+    
+    {"id": 262, "name": "Expr_TD_1C", "teacher": "T_Barde", "group": "1_C",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":"early"},
+
+    {"id": 272, "name": "Expr_TD_1G", "teacher": "T_Barde", "group": "1_G",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":"early"},
+
+    
+    
+    {"id": 282, "name": "ProfComm_TD_1E", "teacher": "T_Moore", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":"early"},
+
+    
+    
+    {"id": 292, "name": "Tutorat_TD_1E", "teacher": "T_Moore", "group": "1_E",
+          "room_types": ["TD"], "slots_per_week": 2, "sessions": [], "ordering_preference":""},
+    
+    
+    
+    {"id": 302, "name": "Sport_1C", "teacher": "T_Kylian", "group": "1_C",
+          "room_types": ["APS"], "slots_per_week": 2, "sessions": [], "ordering_preference":"early"},
+
+    {"id": 312, "name": "Sport_1E", "teacher": "T_Antoine", "group": "1_E",
+          "room_types": ["APS"], "slots_per_week": 4, "sessions": [], "ordering_preference":"early"},
+
+    {"id": 322, "name": "Sport_1G", "teacher": "T_Kylian", "group": "1_G",
+          "room_types": ["APS"], "slots_per_week": 2, "sessions": [], "ordering_preference":"early"}
+
+    
+    
+    
+    
+
+    
+    
+    
+    
   ],
 
   "groups":[
-    {"id": "1_C",  "headcount": 30, "parent_id": null, "subgroup_ids": null},
-    {"id": "1_E",  "headcount": 25, "parent_id": null, "subgroup_ids": ["1_E_a","1_E_b"]},
-    {"id": "1_E_a",  "headcount": 12, "parent_id": "1_E", "subgroup_ids": null},
-    {"id": "1_E_b",  "headcount": 13, "parent_id": "1_E", "subgroup_ids": null},
-    {"id": "1_G",  "headcount": 30, "parent_id": null, "subgroup_ids": null}
+    {"id": "1_C",  "size": 30, "parent_id": null, "subgroup_ids": null},
+    {"id": "1_E",  "size": 25, "parent_id": null, "subgroup_ids": ["1_E_a","1_E_b"]},
+    {"id": "1_E_a",  "size": 12, "parent_id": "1_E", "subgroup_ids": null},
+    {"id": "1_E_b",  "size": 13, "parent_id": "1_E", "subgroup_ids": null},
+    {"id": "1_G",  "size": 30, "parent_id": null, "subgroup_ids": null}
   ]
 }

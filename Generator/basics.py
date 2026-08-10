@@ -1,5 +1,10 @@
 from typing import NamedTuple, List
 from dataclasses import dataclass
+import os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
 
 # Erreurs
 class NoSolution(Exception):

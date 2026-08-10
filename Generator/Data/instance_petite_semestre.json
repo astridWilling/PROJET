@@ -1,0 +1,92 @@
+{
+  "teachers": [
+    {"id": "T1", "name": "Prof_Maths"},
+    {"id": "T2", "name": "Prof_Algo"},
+    {"id": "T3", "name": "Prof_Anglais"}
+  ],
+
+  "groups": [
+    {"id": "A", "size": 30},
+    {"id": "B", "size": 30}
+  ],
+
+  "rooms": [
+    {"name": "Amphi1",  "capacity": 100, "room_types": ["CM"], "bat": "Bat1"},
+    {"name": "TD1",     "capacity": 35,  "room_types": ["TD"], "bat": "Bat1"},
+    {"name": "TD2",     "capacity": 35,  "room_types": ["TD"], "bat": "Bat1"},
+    {"name": "INFO1",   "capacity": 35,  "room_types": ["INFO"], "bat": "Bat1"}
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "name": "Maths_A",
+      "teacher": "T1",
+      "group": "A",
+      "headcount": 30,
+      "room_types": ["TD"],
+      "slots_per_week": 1,
+      "sessions": ["CM", "TD", "CM", "TD", "TD"],
+      "session_room_types": {"CM": ["CM"], "TD": ["TD"]},
+      "ordering_preference": "early"
+    },
+    {
+      "id": 2,
+      "name": "Algo_A",
+      "teacher": "T2",
+      "group": "A",
+      "headcount": 30,
+      "room_types": ["INFO"],
+      "slots_per_week": 1,
+      "sessions": ["CM", "CM", "INFO", "INFO"],
+      "session_room_types": {"CM": ["CM"], "INFO": ["INFO"]},
+      "ordering_preference": "late"
+    },
+    {
+      "id": 3,
+      "name": "Anglais_A",
+      "teacher": "T3",
+      "group": "A",
+      "headcount": 30,
+      "room_types": ["TD"],
+      "slots_per_week": 1,
+      "sessions": ["TD", "TD", "TD"],
+      "ordering_preference": "middle"
+    },
+    {
+      "id": 4,
+      "name": "Maths_B",
+      "teacher": "T1",
+      "group": "B",
+      "headcount": 30,
+      "room_types": ["TD"],
+      "slots_per_week": 1,
+      "sessions": ["CM", "TD", "CM", "TD"],
+      "session_room_types": {"CM": ["CM"], "TD": ["TD"]},
+      "ordering_preference": "early"
+    },
+    {
+      "id": 5,
+      "name": "Algo_B",
+      "teacher": "T2",
+      "group": "B",
+      "headcount": 30,
+      "room_types": ["INFO"],
+      "slots_per_week": 1,
+      "sessions": ["CM", "CM", "INFO"],
+      "session_room_types": {"CM": ["CM"], "INFO": ["INFO"]},
+      "ordering_preference": "late"
+    },
+    {
+      "id": 6,
+      "name": "Anglais_B",
+      "teacher": "T3",
+      "group": "B",
+      "headcount": 30,
+      "room_types": ["TD"],
+      "slots_per_week": 1,
+      "sessions": ["TD", "TD", "TD"],
+      "ordering_preference": "middle"
+    }
+  ]
+}
