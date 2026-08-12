@@ -95,7 +95,7 @@ def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
     # ---------- Création des variables globales utiles ---------- #
     nb_days = meta["nb_weeks"]*meta["nb_days_per_week"]
     LUNCH_DEBUT_MIN = hm(SLOT_TABLE[meta["lunch_slots"][0]])
-    LUNCH_FIN_MIN = hm(SLOT_TABLE[meta["lunch_slots"][-1]])
+    LUNCH_FIN_MIN = hm(SLOT_TABLE[meta["lunch_slots"][-1]+1]) #+1 pour avoir la fin du dernier lunch_slot et non le début
     
 
     return groups_list, teachers_list, courses_list, dept_list, rooms_list, buildings_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN
