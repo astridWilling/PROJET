@@ -147,7 +147,7 @@ def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
         if c == []:
             print(f"Incohérence cours entre edt et data : cours id={courseid} introuvable dans {data_filename}")
             return []
-        st = c[0]["room_types"]
+        st = st = c[0].get("session_type", c[0]["room_types"][0])
 
         #Test cours partagé
         it = [it for it in perturb_ok if it["course"]==courseid and it["heure_debut"]==heure_debut and it["room"]==room]        
