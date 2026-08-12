@@ -1,81 +1,5 @@
 [
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 0,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 0,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 21,
     "group": [
       {
@@ -492,44 +416,6 @@
     "room": "Amphi102",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 4,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 41,
@@ -3143,44 +3029,6 @@
     "session_type": "TD"
   },
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 11,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 22,
     "group": [
       {
@@ -3249,124 +3097,10 @@
         292
       ]
     },
-    "day": 10,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 10,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
     "day": 11,
     "heure_debut": "08h00",
     "heure_fin": "09h15",
     "room": "GP2",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 10,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "GP1",
     "building": "GP",
     "session_type": "TP_Phys"
   },
@@ -4692,120 +4426,6 @@
     "room": "Amphi112",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 31,
@@ -7410,82 +7030,6 @@
     "session_type": "CM"
   },
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 26,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 27,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 21,
     "group": [
       {
@@ -7750,44 +7294,6 @@
     "room": "Amphi102",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 27,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 32,
@@ -8960,44 +8466,6 @@
     "room": "Amphi111",
     "building": "Principal",
     "session_type": "CM"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 31,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 42,
@@ -10340,44 +9808,6 @@
     "session_type": "TD"
   },
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 36,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 21,
     "group": [
       {
@@ -10528,82 +9958,6 @@
     "room": "Amphi9",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 39,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 38,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 42,
@@ -11807,82 +11161,6 @@
     "room": "Gym",
     "building": "Gym",
     "session_type": "APS"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 40,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 40,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 21,
@@ -13360,44 +12638,6 @@
     "session_type": "TD"
   },
   {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 45,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 31,
     "group": [
       {
@@ -13586,44 +12826,6 @@
     "room": "Amphi101",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 46,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 42,
@@ -14255,118 +13457,6 @@
     "session_type": "CM"
   },
   {
-    "course": 142,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Max",
-      "name": "Max",
-      "courses": [
-        131,
-        132,
-        141,
-        142,
-        151,
-        152,
-        292
-      ]
-    },
-    "day": 46,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "Amphi102",
-    "building": "Principal",
-    "session_type": "TD"
-  },
-  {
-    "course": 142,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Max",
-      "name": "Max",
-      "courses": [
-        131,
-        132,
-        141,
-        142,
-        151,
-        152,
-        292
-      ]
-    },
-    "day": 47,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "Amphi102",
-    "building": "Principal",
-    "session_type": "TD"
-  },
-  {
-    "course": 142,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Max",
-      "name": "Max",
-      "courses": [
-        131,
-        132,
-        141,
-        142,
-        151,
-        152,
-        292
-      ]
-    },
-    "day": 47,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Amphi102",
-    "building": "Principal",
-    "session_type": "TD"
-  },
-  {
-    "course": 151,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Max",
-      "name": "Max",
-      "courses": [
-        131,
-        132,
-        141,
-        142,
-        151,
-        152,
-        292
-      ]
-    },
-    "day": 47,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
     "course": 152,
     "group": [
       {
@@ -14912,196 +14002,6 @@
     "room": "Amphi101",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 50,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 50,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 50,
-    "heure_debut": "15h30",
-    "heure_fin": "16h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 51,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 51,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 42,
@@ -16362,82 +15262,6 @@
     "session_type": "TD"
   },
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 55,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 56,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 31,
     "group": [
       {
@@ -16626,82 +15450,6 @@
     "room": "Amphi112",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 58,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 55,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 42,
@@ -18080,44 +16828,6 @@
     "session_type": "TD"
   },
   {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 60,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
     "course": 21,
     "group": [
       {
@@ -18230,44 +16940,6 @@
     "room": "Vinci",
     "building": "Principal",
     "session_type": "CM"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 60,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 41,
@@ -19763,86 +18435,10 @@
         292
       ]
     },
-    "day": 69,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
     "day": 65,
     "heure_debut": "14h00",
     "heure_fin": "15h15",
     "room": "GP2",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 33,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 65,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GP1",
     "building": "GP",
     "session_type": "TP_Phys"
   },
@@ -21293,44 +19889,6 @@
         292
       ]
     },
-    "day": 72,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 13,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Eric",
-      "name": "Eric",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
     "day": 70,
     "heure_debut": "11h00",
     "heure_fin": "12h15",
@@ -21413,158 +19971,6 @@
     "room": "GB108",
     "building": "GB",
     "session_type": "TD"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 74,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 70,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 70,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
-  },
-  {
-    "course": 23,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 70,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "GP1",
-    "building": "GP",
-    "session_type": "TP_Phys"
   },
   {
     "course": 32,
@@ -22633,5 +21039,1449 @@
     "room": "Amphi112",
     "building": "Principal",
     "session_type": "TD"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 0,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 0,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 4,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 10,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 10,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 10,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 15,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 15,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 15,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 26,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 27,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 27,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 31,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 36,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 39,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 38,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 40,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 40,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 45,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 46,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 50,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 50,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 50,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 51,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 51,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 55,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 56,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 58,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 55,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 60,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 60,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 69,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 33,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 65,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 13,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 72,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 74,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 70,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 70,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
+  },
+  {
+    "course": 23,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 70,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "GP2",
+    "building": "GP",
+    "session_type": "TP_Phys"
   }
 ]

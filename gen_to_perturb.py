@@ -49,7 +49,7 @@ def get_data(filename: str):
     if not os.path.isfile(filepath):
         raise FileNotFoundError(f"Fichier de données de création {filepath} introuvable")
 
-    with open(filepath, "r") as file:
+    with open(filepath, "r", encoding="utf-8") as file:
         data = json.load(file)
 
     return data
@@ -63,7 +63,7 @@ def get_timetable(filename: str):
     if not os.path.isfile(filepath):
             raise FileNotFoundError(f"Fichier d'emploi du temps {filepath} introuvable")
     
-    with open(filepath, "r") as file:
+    with open(filepath, "r", encoding="utf-8") as file:
         edt = json.load(file)
 
     return edt
@@ -77,7 +77,7 @@ def get_specs(filename: str):
     if not os.path.isfile(filepath):
             raise FileNotFoundError(f"Fichier de specs {filepath} introuvable")
     
-    with open(filepath, "r") as file:
+    with open(filepath, "r", encoding="utf-8") as file:
         specs = json.load(file)
 
     return specs
@@ -150,7 +150,7 @@ def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
         st = st = c[0].get("session_type", c[0]["room_types"][0])
 
         #Test cours partagé
-        it = [it for it in perturb_ok if it["course"]==courseid and it["heure_debut"]==heure_debut and it["room"]==room]        
+        it = [it for it in perturb_ok if it["course"]==courseid and it["heure_debut"]==heure_debut and it["room"]==room and it["day"]==day]        
         if it == []:
             perturb_ok.append(
                 {
@@ -183,7 +183,7 @@ def create_compatible(data_filename: str, edt_filename: str, specs_filename: str
         # Création du fichier compatbile perturb
         filepath = os.path.join(PER_EDT,output_filename)
         Path(filepath).touch(exist_ok=True)
-        with open(filepath,"w") as file:
+        with open(filepath,"w", encoding="utf-8") as file:
             json.dump(l,file,ensure_ascii=False,indent=2)
             print(f"Edt compatible Perturbations sauvegardé : {filepath}")
     else:

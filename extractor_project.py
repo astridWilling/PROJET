@@ -10,11 +10,11 @@ def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
     sfilepath = os.path.join(PER_DATA, specs_filename)
     efilepath = os.path.join(PER_EDT, edt_filename)
     dfilepath = os.path.join(GEN_DATA, data_filename)
-    with open(sfilepath, "r") as f:
+    with open(sfilepath, "r", encoding="utf-8") as f:
         specs = json.load(f)
-    with open(efilepath,"r") as e:
+    with open(efilepath,"r", encoding="utf-8") as e:
         edt = json.load(e)
-    with open(dfilepath,"r") as d:
+    with open(dfilepath,"r", encoding="utf-8") as d:
         data = json.load(d)
 
     s_g = specs["groups"]
