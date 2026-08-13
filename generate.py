@@ -25,3 +25,5 @@ def generate(filename:str):
         print(f"ERREUR : {e}")
     finally:
         sys.path.remove(gen_dir)
+        for key in ['basics', 'solver', 'term_solver', 'greedy', 'constraints']:
+            sys.modules.pop(key, None)

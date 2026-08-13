@@ -547,7 +547,7 @@ def move_one(
     done         = False
     placed_item  = None
 
-    if item.day < basics.MIN_DAY:
+    if to_move.day < basics.MIN_DAY:
         return schedule, None, None   # item passé : ignoré silencieusement
 
     nb_blocked_teacher = {}

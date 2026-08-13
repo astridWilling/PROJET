@@ -21,7 +21,7 @@ nb_weeks = data["meta"]["nb_weeks"]
 #! ---------------- Generator
 gen = ["Y",
         f"{data_path}", str(nb_weeks),
-        "60","60","4","","2","2","2",
+        "60","60","8","","2","2","2",
         "y"
        ]
 

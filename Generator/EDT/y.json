@@ -1,0 +1,9947 @@
+[
+  {
+    "week": 0,
+    "course": "11_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "12_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH111"
+  },
+  {
+    "week": 0,
+    "course": "13_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 0,
+    "course": "13_w0_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 0,
+    "course": "22_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "CSH215"
+  },
+  {
+    "week": 0,
+    "course": "22_w0_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH011"
+  },
+  {
+    "week": 0,
+    "course": "22_w0_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "31_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "31_w0_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "31_w0_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 0,
+    "course": "33_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 0,
+    "course": "33_w0_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 0,
+    "course": "41_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "42_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 0,
+    "course": "42_w0_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "42_w0_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH011"
+  },
+  {
+    "week": 0,
+    "course": "42_w0_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 0,
+    "course": "52_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "61_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "71_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "81_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "102_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH013"
+  },
+  {
+    "week": 0,
+    "course": "102_w0_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "111_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "111_w0_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "131_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "131_w0_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "131_w0_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "141_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "141_w0_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "141_w0_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "161_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "162_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GB43"
+  },
+  {
+    "week": 0,
+    "course": "212_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH011"
+  },
+  {
+    "week": 0,
+    "course": "222_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "222_w0_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "222_w0_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 0,
+    "course": "252_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 0,
+    "course": "252_w0_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 0,
+    "course": "252_w0_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 0,
+    "course": "262_w0_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 0,
+    "course": "262_w0_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 0,
+    "course": "272_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 0,
+    "course": "282_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "282_w0_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "282_w0_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 0,
+    "course": "312_w0_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 0,
+    "course": "312_w0_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 0,
+    "course": "322_w0_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 0,
+    "course": "322_w0_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 0,
+    "course": "322_w0_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 1,
+    "course": "11_w1_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "11_w1_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "12_w1_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 1,
+    "course": "13_w1_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GP2"
+  },
+  {
+    "week": 1,
+    "course": "13_w1_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 1,
+    "course": "21_w1_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "21_w1_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "24_w1_s0",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 1,
+    "course": "24_w1_s1",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GP2"
+  },
+  {
+    "week": 1,
+    "course": "33_w1_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 1,
+    "course": "33_w1_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 1,
+    "course": "42_w1_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 1,
+    "course": "42_w1_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "51_w1_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "52_w1_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GB108"
+  },
+  {
+    "week": 1,
+    "course": "61_w1_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "62_w1_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "73_w1_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "83_w1_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "83_w1_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "93_w1_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "93_w1_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "93_w1_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "93_w1_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "93_w1_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 1,
+    "course": "101_w1_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 1,
+    "course": "101_w1_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "102_w1_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH011"
+  },
+  {
+    "week": 1,
+    "course": "102_w1_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 1,
+    "course": "111_w1_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "122_w1_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "132_w1_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "152_w1_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 1,
+    "course": "161_w1_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 1,
+    "course": "202_w1_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "202_w1_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "202_w1_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "232_w1_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "232_w1_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "252_w1_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 1,
+    "course": "272_w1_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "272_w1_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 1,
+    "course": "272_w1_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 1,
+    "course": "282_w1_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 1,
+    "course": "282_w1_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "282_w1_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 1,
+    "course": "312_w1_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 1,
+    "course": "312_w1_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 1,
+    "course": "322_w1_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 1,
+    "course": "322_w1_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 1,
+    "course": "322_w1_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 2,
+    "course": "11_w2_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "11_w2_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "12_w2_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 2,
+    "course": "13_w2_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "13_w2_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "21_w2_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "22_w2_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH011"
+  },
+  {
+    "week": 2,
+    "course": "22_w2_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "22_w2_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "24_w2_s2",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "33_w2_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "33_w2_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "33_w2_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 2,
+    "course": "41_w2_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 2,
+    "course": "42_w2_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "52_w2_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 2,
+    "course": "61_w2_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "73_w2_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 2,
+    "course": "73_w2_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 2,
+    "course": "81_w2_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "83_w2_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 2,
+    "course": "83_w2_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 2,
+    "course": "102_w2_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 2,
+    "course": "111_w2_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "111_w2_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "111_w2_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "122_w2_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "131_w2_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "131_w2_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "131_w2_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 2,
+    "course": "142_w2_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 2,
+    "course": "151_w2_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 2,
+    "course": "151_w2_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 2,
+    "course": "152_w2_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GP218"
+  },
+  {
+    "week": 2,
+    "course": "152_w2_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH011"
+  },
+  {
+    "week": 2,
+    "course": "212_w2_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 2,
+    "course": "222_w2_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 2,
+    "course": "222_w2_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "222_w2_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 2,
+    "course": "232_w2_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "262_w2_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "262_w2_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 2,
+    "course": "262_w2_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi9"
+  },
+  {
+    "week": 2,
+    "course": "282_w2_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi7"
+  },
+  {
+    "week": 2,
+    "course": "282_w2_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH215"
+  },
+  {
+    "week": 2,
+    "course": "282_w2_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 2,
+    "course": "312_w2_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 2,
+    "course": "312_w2_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 2,
+    "course": "322_w2_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 2,
+    "course": "322_w2_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 2,
+    "course": "322_w2_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 3,
+    "course": "12_w3_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH011"
+  },
+  {
+    "week": 3,
+    "course": "12_w3_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "21_w3_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "21_w3_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s0",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s1",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s2",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s3",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s4",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s5",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "23_w3_s6",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 3,
+    "course": "31_w3_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "31_w3_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 3,
+    "course": "32_w3_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH011"
+  },
+  {
+    "week": 3,
+    "course": "62_w3_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "62_w3_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 3,
+    "course": "62_w3_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "62_w3_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 3,
+    "course": "62_w3_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 3,
+    "course": "71_w3_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "81_w3_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "91_w3_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "91_w3_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "91_w3_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "102_w3_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH011"
+  },
+  {
+    "week": 3,
+    "course": "102_w3_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "CSH011"
+  },
+  {
+    "week": 3,
+    "course": "102_w3_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH011"
+  },
+  {
+    "week": 3,
+    "course": "111_w3_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "111_w3_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "111_w3_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "122_w3_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 3,
+    "course": "131_w3_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "141_w3_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "151_w3_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "151_w3_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "161_w3_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "161_w3_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 3,
+    "course": "172_w3_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 3,
+    "course": "212_w3_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "212_w3_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "272_w3_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "272_w3_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 3,
+    "course": "272_w3_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 3,
+    "course": "282_w3_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 3,
+    "course": "282_w3_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "282_w3_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 3,
+    "course": "302_w3_s0",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 3,
+    "course": "302_w3_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 3,
+    "course": "312_w3_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 3,
+    "course": "312_w3_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 3,
+    "course": "322_w3_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 4,
+    "course": "21_w4_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "23_w4_s7",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 4,
+    "course": "24_w4_s3",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 4,
+    "course": "31_w4_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "31_w4_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "31_w4_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "31_w4_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 4,
+    "course": "33_w4_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 4,
+    "course": "41_w4_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "41_w4_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "41_w4_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "61_w4_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "62_w4_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 4,
+    "course": "71_w4_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "71_w4_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "71_w4_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "71_w4_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "71_w4_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "91_w4_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "101_w4_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "101_w4_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "112_w4_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 4,
+    "course": "112_w4_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 4,
+    "course": "121_w4_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "121_w4_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "131_w4_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "131_w4_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "161_w4_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 4,
+    "course": "162_w4_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 4,
+    "course": "162_w4_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 4,
+    "course": "172_w4_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "172_w4_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "182_w4_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "182_w4_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 4,
+    "course": "192_w4_s0",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 4,
+    "course": "192_w4_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 4,
+    "course": "222_w4_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "252_w4_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "252_w4_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 4,
+    "course": "252_w4_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "262_w4_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 4,
+    "course": "262_w4_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "262_w4_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "282_w4_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "282_w4_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "282_w4_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 4,
+    "course": "302_w4_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 4,
+    "course": "302_w4_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 4,
+    "course": "302_w4_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 4,
+    "course": "312_w4_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 4,
+    "course": "312_w4_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 5,
+    "course": "11_w5_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "11_w5_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "11_w5_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "11_w5_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 5,
+    "course": "13_w5_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 5,
+    "course": "21_w5_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 5,
+    "course": "22_w5_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "22_w5_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi103"
+  },
+  {
+    "week": 5,
+    "course": "22_w5_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "51_w5_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 5,
+    "course": "61_w5_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "61_w5_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "61_w5_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 5,
+    "course": "61_w5_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 5,
+    "course": "81_w5_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "81_w5_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "91_w5_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "91_w5_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "91_w5_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "91_w5_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "101_w5_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 5,
+    "course": "102_w5_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "122_w5_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "122_w5_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "131_w5_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 5,
+    "course": "131_w5_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "131_w5_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 5,
+    "course": "131_w5_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 5,
+    "course": "142_w5_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "142_w5_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "152_w5_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "152_w5_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi103"
+  },
+  {
+    "week": 5,
+    "course": "161_w5_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 5,
+    "course": "172_w5_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "172_w5_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "182_w5_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "182_w5_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi103"
+  },
+  {
+    "week": 5,
+    "course": "192_w5_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "192_w5_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 5,
+    "course": "202_w5_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "212_w5_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "252_w5_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 5,
+    "course": "252_w5_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 5,
+    "course": "262_w5_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "262_w5_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "262_w5_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 5,
+    "course": "302_w5_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 5,
+    "course": "302_w5_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 5,
+    "course": "302_w5_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 5,
+    "course": "312_w5_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 5,
+    "course": "312_w5_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s1",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "32_w6_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "33_w6_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GP2"
+  },
+  {
+    "week": 6,
+    "course": "41_w6_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Riquet"
+  },
+  {
+    "week": 6,
+    "course": "61_w6_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "61_w6_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "61_w6_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "71_w6_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "71_w6_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "83_w6_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 6,
+    "course": "91_w6_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "91_w6_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "101_w6_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "101_w6_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "101_w6_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "112_w6_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "132_w6_s1",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "141_w6_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "141_w6_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "142_w6_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "151_w6_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "152_w6_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "152_w6_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "161_w6_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 6,
+    "course": "172_w6_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "172_w6_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "182_w6_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "182_w6_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "192_w6_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GB42"
+  },
+  {
+    "week": 6,
+    "course": "192_w6_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "202_w6_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "212_w6_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 6,
+    "course": "212_w6_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 6,
+    "course": "262_w6_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi103"
+  },
+  {
+    "week": 6,
+    "course": "262_w6_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi103"
+  },
+  {
+    "week": 6,
+    "course": "262_w6_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi103"
+  },
+  {
+    "week": 6,
+    "course": "302_w6_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 6,
+    "course": "302_w6_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 6,
+    "course": "302_w6_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 6,
+    "course": "312_w6_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 6,
+    "course": "312_w6_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 7,
+    "course": "11_w7_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 7,
+    "course": "12_w7_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 7,
+    "course": "12_w7_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 7,
+    "course": "12_w7_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 7,
+    "course": "22_w7_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 7,
+    "course": "23_w7_s8",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 7,
+    "course": "24_w7_s4",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 7,
+    "course": "24_w7_s5",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 7,
+    "course": "24_w7_s6",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 7,
+    "course": "31_w7_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 7,
+    "course": "31_w7_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "61_w7_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "62_w7_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "62_w7_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "62_w7_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 7,
+    "course": "62_w7_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GB42"
+  },
+  {
+    "week": 7,
+    "course": "71_w7_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "73_w7_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 7,
+    "course": "81_w7_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "81_w7_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "81_w7_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "81_w7_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "101_w7_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 7,
+    "course": "101_w7_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "111_w7_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "112_w7_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "112_w7_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 7,
+    "course": "122_w7_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 7,
+    "course": "141_w7_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "141_w7_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "141_w7_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "141_w7_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "141_w7_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "151_w7_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "152_w7_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "162_w7_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "162_w7_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 7,
+    "course": "172_w7_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 7,
+    "course": "172_w7_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 7,
+    "course": "182_w7_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH011"
+  },
+  {
+    "week": 7,
+    "course": "182_w7_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "192_w7_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 7,
+    "course": "192_w7_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 7,
+    "course": "232_w7_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 7,
+    "course": "272_w7_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 7,
+    "course": "272_w7_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 7,
+    "course": "272_w7_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 7,
+    "course": "302_w7_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 7,
+    "course": "302_w7_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 7,
+    "course": "302_w7_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 7,
+    "course": "312_w7_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Antoine",
+      "name": "Antoine",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 8,
+    "course": "12_w8_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "21_w8_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "21_w8_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "23_w8_s9",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 8,
+    "course": "23_w8_s10",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 8,
+    "course": "24_w8_s7",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 8,
+    "course": "24_w8_s8",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 8,
+    "course": "31_w8_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "41_w8_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Riquet"
+  },
+  {
+    "week": 8,
+    "course": "41_w8_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Riquet"
+  },
+  {
+    "week": 8,
+    "course": "41_w8_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Riquet"
+  },
+  {
+    "week": 8,
+    "course": "42_w8_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "42_w8_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "71_w8_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "73_w8_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 8,
+    "course": "73_w8_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 8,
+    "course": "73_w8_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 8,
+    "course": "73_w8_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 8,
+    "course": "112_w8_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "121_w8_s2",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 8,
+    "course": "121_w8_s3",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "121_w8_s4",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "122_w8_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "122_w8_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "122_w8_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "132_w8_s2",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "141_w8_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 8,
+    "course": "141_w8_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Riquet"
+  },
+  {
+    "week": 8,
+    "course": "141_w8_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Riquet"
+  },
+  {
+    "week": 8,
+    "course": "161_w8_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "161_w8_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Vinci"
+  },
+  {
+    "week": 8,
+    "course": "172_w8_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "172_w8_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "182_w8_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "182_w8_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "192_w8_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "192_w8_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "202_w8_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "202_w8_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "212_w8_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "212_w8_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "232_w8_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "232_w8_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "252_w8_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi102"
+  },
+  {
+    "week": 8,
+    "course": "262_w8_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "272_w8_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi103"
+  },
+  {
+    "week": 8,
+    "course": "272_w8_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "292_w8_s0",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi101"
+  },
+  {
+    "week": 8,
+    "course": "302_w8_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Gym"
+  },
+  {
+    "week": 8,
+    "course": "322_w8_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 8,
+    "course": "322_w8_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 9,
+    "course": "11_w9_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "21_w9_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "21_w9_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "21_w9_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "21_w9_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "24_w9_s9",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 9,
+    "course": "24_w9_s10",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 9,
+    "course": "32_w9_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "CSH011"
+  },
+  {
+    "week": 9,
+    "course": "32_w9_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "42_w9_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH011"
+  },
+  {
+    "week": 9,
+    "course": "51_w9_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "62_w9_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "73_w9_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 9,
+    "course": "112_w9_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 9,
+    "course": "112_w9_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH011"
+  },
+  {
+    "week": 9,
+    "course": "112_w9_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 9,
+    "course": "121_w9_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "121_w9_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "121_w9_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "121_w9_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "141_w9_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 9,
+    "course": "142_w9_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 9,
+    "course": "142_w9_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "142_w9_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "142_w9_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 9,
+    "course": "142_w9_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "152_w9_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "161_w9_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "161_w9_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "161_w9_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "172_w9_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "172_w9_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "182_w9_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "182_w9_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "192_w9_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GB42"
+  },
+  {
+    "week": 9,
+    "course": "192_w9_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GB42"
+  },
+  {
+    "week": 9,
+    "course": "202_w9_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "212_w9_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 9,
+    "course": "222_w9_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 9,
+    "course": "232_w9_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "272_w9_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "272_w9_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 9,
+    "course": "272_w9_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Barde",
+      "name": "Barde",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 9,
+    "course": "322_w9_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Gym"
+  },
+  {
+    "week": 9,
+    "course": "322_w9_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Gym"
+  },
+  {
+    "week": 9,
+    "course": "322_w9_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kylian",
+      "name": "Kylian",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Gym"
+  },
+  {
+    "week": 10,
+    "course": "11_w10_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 10,
+    "course": "12_w10_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 10,
+    "course": "12_w10_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 10,
+    "course": "12_w10_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 10,
+    "course": "13_w10_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 10,
+    "course": "13_w10_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 10,
+    "course": "21_w10_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 10,
+    "course": "23_w10_s11",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 10,
+    "course": "23_w10_s12",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 10,
+    "course": "23_w10_s13",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 10,
+    "course": "32_w10_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GB43"
+  },
+  {
+    "week": 10,
+    "course": "32_w10_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GB42"
+  },
+  {
+    "week": 10,
+    "course": "41_w10_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 10,
+    "course": "41_w10_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 10,
+    "course": "51_w10_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 10,
+    "course": "52_w10_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GB108"
+  },
+  {
+    "week": 10,
+    "course": "52_w10_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH215"
+  },
+  {
+    "week": 10,
+    "course": "52_w10_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GB108"
+  },
+  {
+    "week": 10,
+    "course": "71_w10_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "71_w10_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "81_w10_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "81_w10_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "81_w10_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "83_w10_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 10,
+    "course": "83_w10_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 10,
+    "course": "93_w10_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 10,
+    "course": "121_w10_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "121_w10_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "122_w10_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH111"
+  },
+  {
+    "week": 10,
+    "course": "122_w10_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH206"
+  },
+  {
+    "week": 10,
+    "course": "122_w10_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "CSH211"
+  },
+  {
+    "week": 10,
+    "course": "132_w10_s3",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "132_w10_s4",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 10,
+    "course": "151_w10_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "151_w10_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "151_w10_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "161_w10_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 10,
+    "course": "162_w10_s5",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 10,
+    "course": "162_w10_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB42"
+  },
+  {
+    "week": 10,
+    "course": "172_w10_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH215"
+  },
+  {
+    "week": 10,
+    "course": "172_w10_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Seb",
+      "name": "Seb",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 10,
+    "course": "182_w10_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH211"
+  },
+  {
+    "week": 10,
+    "course": "182_w10_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "192_w10_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 10,
+    "course": "192_w10_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 10,
+    "course": "202_w10_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 10,
+    "course": "202_w10_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH011"
+  },
+  {
+    "week": 10,
+    "course": "212_w10_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 10,
+    "course": "252_w10_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 10,
+    "course": "292_w10_s1",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 10,
+    "course": "292_w10_s2",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 11,
+    "course": "13_w11_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GP2"
+  },
+  {
+    "week": 11,
+    "course": "13_w11_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GP2"
+  },
+  {
+    "week": 11,
+    "course": "23_w11_s14",
+    "group": "1_E_a",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "24_w11_s11",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "24_w11_s12",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "33_w11_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "33_w11_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "33_w11_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 11,
+    "course": "42_w11_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH011"
+  },
+  {
+    "week": 11,
+    "course": "42_w11_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GP218"
+  },
+  {
+    "week": 11,
+    "course": "42_w11_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 11,
+    "course": "52_w11_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "52_w11_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "52_w11_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 11,
+    "course": "62_w11_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH011"
+  },
+  {
+    "week": 11,
+    "course": "62_w11_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "71_w11_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "71_w11_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "73_w11_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 11,
+    "course": "83_w11_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 11,
+    "course": "91_w11_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "91_w11_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "101_w11_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "101_w11_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "102_w11_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "102_w11_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "102_w11_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "111_w11_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "112_w11_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "131_w11_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "132_w11_s5",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 11,
+    "course": "151_w11_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "151_w11_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "151_w11_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "151_w11_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 11,
+    "course": "161_w11_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "162_w11_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 11,
+    "course": "162_w11_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "182_w11_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Jo",
+      "name": "Jo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 11,
+    "course": "192_w11_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "202_w11_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH010"
+  },
+  {
+    "week": 11,
+    "course": "202_w11_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "202_w11_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "212_w11_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 11,
+    "course": "212_w11_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 11,
+    "course": "232_w11_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 11,
+    "course": "232_w11_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH010"
+  },
+  {
+    "week": 11,
+    "course": "252_w11_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 11,
+    "course": "292_w11_s3",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 11,
+    "course": "292_w11_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 11,
+    "course": "292_w11_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 12,
+    "course": "11_w12_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "11_w12_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "12_w12_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 12,
+    "course": "12_w12_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 12,
+    "course": "22_w12_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 12,
+    "course": "22_w12_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 12,
+    "course": "22_w12_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH015"
+  },
+  {
+    "week": 12,
+    "course": "22_w12_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH104"
+  },
+  {
+    "week": 12,
+    "course": "22_w12_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 12,
+    "course": "24_w12_s13",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 12,
+    "course": "31_w12_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "31_w12_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "32_w12_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GB42"
+  },
+  {
+    "week": 12,
+    "course": "41_w12_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "41_w12_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "42_w12_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 12,
+    "course": "52_w12_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GP218"
+  },
+  {
+    "week": 12,
+    "course": "52_w12_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GB42"
+  },
+  {
+    "week": 12,
+    "course": "52_w12_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "GB43"
+  },
+  {
+    "week": 12,
+    "course": "81_w12_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "93_w12_s6",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 12,
+    "course": "93_w12_s7",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 12,
+    "course": "93_w12_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 12,
+    "course": "111_w12_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 12,
+    "course": "112_w12_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "112_w12_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH015"
+  },
+  {
+    "week": 12,
+    "course": "112_w12_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "121_w12_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "121_w12_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "121_w12_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "132_w12_s6",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GB43"
+  },
+  {
+    "week": 12,
+    "course": "132_w12_s7",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 12,
+    "course": "132_w12_s8",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "GB108"
+  },
+  {
+    "week": 12,
+    "course": "142_w12_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GB42"
+  },
+  {
+    "week": 12,
+    "course": "151_w12_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "151_w12_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 12,
+    "course": "152_w12_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "152_w12_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "162_w12_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "162_w12_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "162_w12_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "202_w12_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GB108"
+  },
+  {
+    "week": 12,
+    "course": "212_w12_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 12,
+    "course": "222_w12_s8",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "222_w12_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "232_w12_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "252_w12_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "252_w12_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 12,
+    "course": "292_w12_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 12,
+    "course": "292_w12_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "GB42"
+  },
+  {
+    "week": 12,
+    "course": "292_w12_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 13,
+    "course": "13_w13_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 13,
+    "course": "13_w13_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 13,
+    "course": "31_w13_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "32_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 13,
+    "course": "32_w13_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 13,
+    "course": "32_w13_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GB42"
+  },
+  {
+    "week": 13,
+    "course": "33_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s4",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s5",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s6",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s7",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s8",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "51_w13_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "52_w13_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 13,
+    "course": "52_w13_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GP218"
+  },
+  {
+    "week": 13,
+    "course": "52_w13_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH015"
+  },
+  {
+    "week": 13,
+    "course": "62_w13_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 13,
+    "course": "81_w13_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "93_w13_s9",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 13,
+    "course": "93_w13_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "MFJA"
+  },
+  {
+    "week": 13,
+    "course": "93_w13_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "MFJA"
+  },
+  {
+    "week": 13,
+    "course": "93_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "MFJA"
+  },
+  {
+    "week": 13,
+    "course": "111_w13_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "111_w13_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "111_w13_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "112_w13_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "112_w13_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH010"
+  },
+  {
+    "week": 13,
+    "course": "122_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "122_w13_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s9",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GMM13"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "GMM13"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GMM13"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "132_w13_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "152_w13_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 13,
+    "course": "152_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "161_w13_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 13,
+    "course": "162_w13_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "GB108"
+  },
+  {
+    "week": 13,
+    "course": "162_w13_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 13,
+    "course": "202_w13_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "212_w13_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Fiore",
+      "name": "Fiore",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "222_w13_s10",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "GB108"
+  },
+  {
+    "week": 13,
+    "course": "222_w13_s11",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GB108"
+  },
+  {
+    "week": 13,
+    "course": "232_w13_s10",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 13,
+    "course": "232_w13_s11",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "232_w13_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "292_w13_s9",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "292_w13_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 13,
+    "course": "292_w13_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "11_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "12_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "GMM13"
+  },
+  {
+    "week": 14,
+    "course": "13_w14_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "GP1"
+  },
+  {
+    "week": 14,
+    "course": "13_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Eric",
+      "name": "Eric",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 14,
+    "course": "21_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "24_w14_s14",
+    "group": "1_E_b",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP1"
+  },
+  {
+    "week": 14,
+    "course": "33_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 0,
+    "room": "GP1"
+  },
+  {
+    "week": 14,
+    "course": "33_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "GP1"
+  },
+  {
+    "week": 14,
+    "course": "41_w14_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "41_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "42_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "51_w14_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "51_w14_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "51_w14_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Vinci"
+  },
+  {
+    "week": 14,
+    "course": "51_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "61_w14_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "61_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "61_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "81_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Vinci"
+  },
+  {
+    "week": 14,
+    "course": "83_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 14,
+    "course": "91_w14_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Vinci"
+  },
+  {
+    "week": 14,
+    "course": "91_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "91_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "93_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 14,
+    "course": "93_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "MFJA"
+  },
+  {
+    "week": 14,
+    "course": "101_w14_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "101_w14_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "101_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 5,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "102_w14_s12",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "102_w14_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "102_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "121_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "122_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Gauss",
+      "name": "Gauss",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "131_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "142_w14_s10",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 14,
+    "course": "142_w14_s11",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "GB108"
+  },
+  {
+    "week": 14,
+    "course": "142_w14_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 1,
+    "room": "Amphi111"
+  },
+  {
+    "week": 14,
+    "course": "142_w14_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GB42"
+  },
+  {
+    "week": 14,
+    "course": "142_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 5,
+    "room": "GP218"
+  },
+  {
+    "week": 14,
+    "course": "152_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "152_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Mayer",
+      "name": "Mayer",
+      "courses": []
+    },
+    "day": 3,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "162_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 0,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "222_w14_s12",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 2,
+    "slot": 2,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "222_w14_s13",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 5,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "222_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "232_w14_s13",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "CSH006"
+  },
+  {
+    "week": 14,
+    "course": "232_w14_s14",
+    "group": "1_C",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH010"
+  },
+  {
+    "week": 14,
+    "course": "252_w14_s14",
+    "group": "1_G",
+    "teacher": {
+      "id": "T_Kate",
+      "name": "Kate",
+      "courses": []
+    },
+    "day": 4,
+    "slot": 0,
+    "room": "GP218"
+  },
+  {
+    "week": 14,
+    "course": "292_w14_s12",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "GP218"
+  },
+  {
+    "week": 14,
+    "course": "292_w14_s13",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 1,
+    "room": "Amphi112"
+  },
+  {
+    "week": 14,
+    "course": "292_w14_s14",
+    "group": "1_E",
+    "teacher": {
+      "id": "T_Moore",
+      "name": "Moore",
+      "courses": []
+    },
+    "day": 1,
+    "slot": 2,
+    "room": "CSH006"
+  }
+]
