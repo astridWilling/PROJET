@@ -1,8 +1,8 @@
-import extractor_project
 
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "Perturbations")) #Permet de résoudre les problèmes d'import des modules de Perturbations
 
+import extractor_project
 from Perturbations.gestion import *
 from Perturbations.scenarios import *
 from Perturbations.solver import full_solve, collect_absent_intervals
