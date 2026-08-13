@@ -42,7 +42,13 @@ def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
     teachers_list = []
     d = {} #dict pour remplir le course de chaque prof
     for teach in s_t: # Création des objets
-        t = Teacher(id=teach["id"],name=teach["name"],courses=[], teacher_type=teach["teacher_type"], max_hours=teach["max_hours"], possible_classes=teach["possible_classes"], dept=teach["dept"])
+        # Création de possible_classes : {course.id: score}
+        pc_by_id = {}
+        for c in d_c:
+            base = c["name"].split("_")[0]
+            if base in teach["possible_classes"]:
+                pc_by_id[c["id"]] = teach["possible_classes"][base]
+        t = Teacher(id=teach["id"],name=teach["name"],courses=[], teacher_type=teach["teacher_type"], max_hours=teach["max_hours"], possible_classes=pc_by_id, dept=teach["dept"])
         d[t.id] = []
         teachers_list.append(t)
     

@@ -66,7 +66,7 @@
     { "name": "GB42",     "capacity": 35,  "room_types": ["TD"],       "bat": "GB" },
     { "name": "GB43",     "capacity": 35,  "room_types": ["TD"],       "bat": "GB" },
     { "name": "GB108",    "capacity": 35,  "room_types": ["TD"],       "bat": "GB" },
-    { "name": "GP1",      "capacity": 20,  "room_types": ["TP_Phys"],       "bat": "GP" },
+    { "name": "GP1",      "capacity": 30,  "room_types": ["TP_Phys"],       "bat": "GP" },
     { "name": "GP218",    "capacity": 30,  "room_types": ["TD"],       "bat": "GP" },
     { "name": "GMM13",    "capacity": 30,  "room_types": ["TD"],       "bat": "GMM" },
     { "name": "CSH006",   "capacity": 30,  "room_types": ["TD"],       "bat": "CSH" },

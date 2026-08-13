@@ -1167,7 +1167,7 @@ def solve_all_room_change(
     return new_schedule, cancelled_items, moved_items, final_status
 
 #*##########################################################
-#* Solve pour des changements de salle (CP-SAT)
+#* Solve pour des ajouts de sessions (CP-SAT)
 #*##########################################################
 def solve_all_add_sessions(
     to_place:         List[Tuple[ScheduleItem, int, dict]],
