@@ -81,8 +81,6 @@ def week_solve(
         teacher_unavailable_weeks = {}
 
     # Auto-calcul de max_sessions_per_group_per_week si non fourni.
-    # Pour chaque groupe : ceil(nb_sessions_du_groupe / nb_weeks) + 1
-    # C'est la borne naturelle : on accepte une session de dépassement par semaine.
     if max_sessions_per_group_per_week is None:
         import math
         sessions_per_group: Dict[str, int] = {}
@@ -90,10 +88,8 @@ def week_solve(
             n = len(sessions_map.get(c.id, []))
             sessions_per_group[c.group] = sessions_per_group.get(c.group, 0) + n
         if sessions_per_group:
-            avg_per_group = sum(sessions_per_group.values()) / len(sessions_per_group)
-            max_sessions_per_group_per_week = math.ceil(
-                (avg_per_group / nb_weeks) * 1.5
-            )
+            max_per_group = max(sessions_per_group.values()) / nb_weeks  # On prend le max plutot que simplement la moyenne
+            max_sessions_per_group_per_week = math.ceil(max_per_group * 1.1)
         else:
             max_sessions_per_group_per_week = 8
 

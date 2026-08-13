@@ -203,10 +203,9 @@ if __name__=="__main__":
                     n = len(sessions_map.get(c.id, []))
                     _spg[c.group] = _spg.get(c.group, 0) + n
                 if _spg:
-                    _avg = sum(_spg.values()) / len(_spg)
-                    _avg_per_week = _avg / nb_weeks
-                    _auto = math.ceil(_avg_per_week * 1.5)
-                    print(f"  (moyenne : {_avg_per_week:.1f} séances/groupe/semaine → auto={_auto})")
+                    max_per_group = max(_spg.values()) / nb_weeks  # On prend le max plutot que simplement la moyenne
+                    _auto = math.ceil(max_per_group * 1.1)
+                    print(f"  (max séances/groupe/semaine → auto={_auto})")
                 else:
                     _auto = 8
                 max_w = input("Nb max de sessions par groupe par semaine (rien=auto) > ")
