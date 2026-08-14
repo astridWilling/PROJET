@@ -6,10 +6,6 @@ data_filename = input(">>> Donner le nom du fichier contenant les données pour 
 
 # data_filename = "data_instance.json"
 
-print(f"Début de la génération")
 generate.generate(data_filename)
-print("Fin de la génération")
 
-print("Début de la perturbation")
 runpy.run_path("perturb.py")
-print("Fin de la perturbation")

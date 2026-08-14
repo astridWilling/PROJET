@@ -39,19 +39,16 @@ edt_filename = os.path.join(gen_to_perturb.GEN_EDT,edt)
 o = input(">>> Donner le nom du fichier de sortie (edt conforme pour la Perturbation qui sera dans Pertuabtions/edt) : > ")
 output_filename = os.path.join(gen_to_perturb.PER_EDT,o)
 
-print("Début gen_to_perturb")
 gen_to_perturb.create_compatible(data_filename,edt_filename,specs_filename,output_filename)
-print("Fin gen_to_perturb")
+
 
 
 # ---------------------------------------------------------------------------
 # Création des variables globales pour la résolution faite dans extractor.py
 # ---------------------------------------------------------------------------
-print("Début extraction et affichage html")
 edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extractor_project.extraction(specs_filename=specs_filename,data_filename=data_filename,edt_filename=o.split(".")[0])
 affichage_html_complet(edt, nb_days=nb_days, courses=courses_list, rooms=rooms_list, filename=o.split(".")[0]+".html", lunch_debut_min=LUNCH_DEBUT_MIN, lunch_fin_min=LUNCH_FIN_MIN, deadline_days=deadline_days)
 affichage_html_heures(edt, courses_list, teachers_list, filename="heures_"+o.split(".")[0]+".html")  # rapport initial dans edt/
-print("Fin extraction et affichage html")
 
 rooms_map = {r.name: r for r in rooms_list}
 teachers_map = {t.id: t for t in teachers_list}

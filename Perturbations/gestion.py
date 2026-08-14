@@ -396,7 +396,6 @@ def affichage_html_complet(schedule, nb_days, courses, rooms,
                 stack.append(child_id)
         return list(ids)
 
-    # Après la boucle _children (ligne ~384), avant grp_items (ligne ~397)
     for gid, g in list(_all_gobj.items()):
         if g.parent and g.parent.subgroup_ids:
             par_id = g.parent.id

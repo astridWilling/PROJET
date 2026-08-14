@@ -32,11 +32,13 @@ def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
         grp = Group(id=g["id"], headcount=g["headcount"], parent=None, subgroup_ids=g["subgroup_ids"])
         groups_list.append(grp)
 
+    parent_map = {}
     for grp in groups_list:  # Remplissage de la liste des parents
-        if grp.subgroup_ids != [] and grp.subgroup_ids is not None:
-            g = [g for g in groups_list if g.id in grp.subgroup_ids]
-            for sg in g:
-                sg._replace(parent=grp.id)
+        if grp.subgroup_ids:
+            for sid in grp.subgroup_ids:
+                parent_map[sid] = grp.id
+    group_obj_map = {g.id: g for g in groups_list}
+    groups_list = [grp._replace(parent=group_obj_map.get(parent_map.get(grp.id))) for grp in groups_list]
 
     # ---------- Création des objets Teacher ---------- #
     teachers_list = []
@@ -112,6 +114,11 @@ def extraction(specs_filename: str, data_filename: str, edt_filename: str):
     """
     g_list, t_list, c_list, d_list, r_list, b_list, nb_days, deadline_days, LD, LF = get_variables(specs_filename,edt_filename+".json",data_filename)
     schedule = load_edt(edt_filename)
+    # les Group des ScheduleItems n'ont pas parents, on replace donc leur parent via g_list
+    group_map = {g.id: g for g in g_list}
+    schedule = [
+        item._replace(group=[group_map.get(g.id,g) for g in item.group]) for item in schedule
+    ]
 
     return schedule, c_list, r_list, t_list, b_list, g_list, nb_days, deadline_days, LD, LF
 
