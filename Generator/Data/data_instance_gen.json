@@ -788,37 +788,9 @@
     },
     {
       "id": 23,
-      "name": "Electro_TP_1E_a",
+      "name": "Electro_TP_1E",
       "teacher": "T_Chris",
-      "group": "1_E_a",
-      "room_types": [
-        "TP_Phys"
-      ],
-      "slots_per_week": 1,
-      "sessions": [
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys",
-        "TP_Phys"
-      ],
-      "ordering_preference": ""
-    },
-    {
-      "id": 24,
-      "name": "Electro_TP_1E_b",
-      "teacher": "T_Chris",
-      "group": "1_E_b",
+      "group": "1_E",
       "room_types": [
         "TP_Phys"
       ],

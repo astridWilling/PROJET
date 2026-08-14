@@ -4535,82 +4535,6 @@
     "session_type": "APS"
   },
   {
-    "course": 11,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 11,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
     "course": 13,
     "group": [
       {
@@ -4647,82 +4571,6 @@
     "room": "GP1",
     "building": "GP",
     "session_type": "TP_Phys"
-  },
-  {
-    "course": 21,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 31,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 15,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
   },
   {
     "course": 42,
@@ -5360,34 +5208,6 @@
     "room": "Amphi101",
     "building": "Principal",
     "session_type": "TD"
-  },
-  {
-    "course": 131,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Max",
-      "name": "Max",
-      "courses": [
-        131,
-        132,
-        141,
-        142,
-        151,
-        152,
-        292
-      ]
-    },
-    "day": 17,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
   },
   {
     "course": 132,
@@ -10486,44 +10306,6 @@
     "session_type": "TP_Phys"
   },
   {
-    "course": 21,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Tom",
-      "name": "Tom",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 37,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Amphi111",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
     "course": 22,
     "group": [
       {
@@ -10714,82 +10496,6 @@
     "session_type": "TD"
   },
   {
-    "course": 42,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Chris",
-      "name": "Chris",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 37,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "CSH006",
-    "building": "CSH",
-    "session_type": "TD"
-  },
-  {
-    "course": 61,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Gégé",
-      "name": "Gégé",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 37,
-    "heure_debut": "14h00",
-    "heure_fin": "15h15",
-    "room": "Amphi111",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
     "course": 62,
     "group": [
       {
@@ -10824,44 +10530,6 @@
     "heure_debut": "08h00",
     "heure_fin": "09h15",
     "room": "GB108",
-    "building": "GB",
-    "session_type": "TD"
-  },
-  {
-    "course": 62,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Gégé",
-      "name": "Gégé",
-      "courses": [
-        11,
-        12,
-        13,
-        21,
-        22,
-        23,
-        31,
-        32,
-        33,
-        41,
-        42,
-        51,
-        52,
-        61,
-        62,
-        112,
-        292
-      ]
-    },
-    "day": 37,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
-    "room": "GB42",
     "building": "GB",
     "session_type": "TD"
   },
@@ -10983,34 +10651,6 @@
     "day": 38,
     "heure_debut": "09h30",
     "heure_fin": "10h45",
-    "room": "Amphi111",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 81,
-    "group": [
-      {
-        "id": "1_E",
-        "headcount": 25
-      }
-    ],
-    "teacher": {
-      "id": "T_Remy",
-      "name": "Remy",
-      "courses": [
-        71,
-        73,
-        81,
-        83,
-        91,
-        93,
-        292
-      ]
-    },
-    "day": 37,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
     "room": "Amphi111",
     "building": "Principal",
     "session_type": "CM"
@@ -11396,35 +11036,6 @@
         292
       ]
     },
-    "day": 37,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Amphi112",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 161,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Lau",
-      "name": "Lau",
-      "courses": [
-        101,
-        102,
-        111,
-        121,
-        122,
-        161,
-        162,
-        292
-      ]
-    },
     "day": 36,
     "heure_debut": "14h00",
     "heure_fin": "15h15",
@@ -11552,30 +11163,6 @@
     "heure_fin": "12h15",
     "room": "Amphi112",
     "building": "Principal",
-    "session_type": "TD"
-  },
-  {
-    "course": 192,
-    "group": [
-      {
-        "id": "1_G",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Gwen",
-      "name": "Gwen",
-      "courses": [
-        172,
-        182,
-        192
-      ]
-    },
-    "day": 37,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "GB108",
-    "building": "GB",
     "session_type": "TD"
   },
   {
@@ -12344,34 +11931,6 @@
     "day": 42,
     "heure_debut": "09h30",
     "heure_fin": "10h45",
-    "room": "Vinci",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 71,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Remy",
-      "name": "Remy",
-      "courses": [
-        71,
-        73,
-        81,
-        83,
-        91,
-        93,
-        292
-      ]
-    },
-    "day": 40,
-    "heure_debut": "11h00",
-    "heure_fin": "12h15",
     "room": "Vinci",
     "building": "Principal",
     "session_type": "CM"
@@ -17734,30 +17293,6 @@
     "session_type": "TD"
   },
   {
-    "course": 202,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Leticia",
-      "name": "Leticia",
-      "courses": [
-        202,
-        212,
-        222
-      ]
-    },
-    "day": 57,
-    "heure_debut": "08h00",
-    "heure_fin": "09h15",
-    "room": "CSH006",
-    "building": "CSH",
-    "session_type": "TD"
-  },
-  {
     "course": 212,
     "group": [
       {
@@ -20375,35 +19910,6 @@
         292
       ]
     },
-    "day": 66,
-    "heure_debut": "09h30",
-    "heure_fin": "10h45",
-    "room": "Amphi111",
-    "building": "Principal",
-    "session_type": "CM"
-  },
-  {
-    "course": 101,
-    "group": [
-      {
-        "id": "1_C",
-        "headcount": 30
-      }
-    ],
-    "teacher": {
-      "id": "T_Euler",
-      "name": "Euler",
-      "courses": [
-        101,
-        102,
-        111,
-        121,
-        122,
-        161,
-        162,
-        292
-      ]
-    },
     "day": 67,
     "heure_debut": "14h00",
     "heure_fin": "15h15",
@@ -22633,5 +22139,501 @@
     "room": "Amphi101",
     "building": "Principal",
     "session_type": "TD"
+  },
+  {
+    "course": 11,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 14,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 11,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 14,
+    "heure_debut": "17h00",
+    "heure_fin": "18h15",
+    "room": "Riquet",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 21,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 14,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 31,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 14,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 21,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 37,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 42,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Chris",
+      "name": "Chris",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 37,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "CSH006",
+    "building": "CSH",
+    "session_type": "TD"
+  },
+  {
+    "course": 62,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Gégé",
+      "name": "Gégé",
+      "courses": [
+        11,
+        12,
+        13,
+        21,
+        22,
+        23,
+        31,
+        32,
+        33,
+        41,
+        42,
+        51,
+        52,
+        61,
+        62,
+        112,
+        292
+      ]
+    },
+    "day": 37,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "Amphi101",
+    "building": "Principal",
+    "session_type": "TD"
+  },
+  {
+    "course": 81,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": [
+        71,
+        73,
+        81,
+        83,
+        91,
+        93,
+        292
+      ]
+    },
+    "day": 36,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "Vinci",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 161,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Lau",
+      "name": "Lau",
+      "courses": [
+        101,
+        102,
+        111,
+        121,
+        122,
+        161,
+        162,
+        292
+      ]
+    },
+    "day": 37,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 192,
+    "group": [
+      {
+        "id": "1_G",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Gwen",
+      "name": "Gwen",
+      "courses": [
+        172,
+        182,
+        192
+      ]
+    },
+    "day": 38,
+    "heure_debut": "14h00",
+    "heure_fin": "15h15",
+    "room": "CSH006",
+    "building": "CSH",
+    "session_type": "TD"
+  },
+  {
+    "course": 131,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Max",
+      "name": "Max",
+      "courses": [
+        131,
+        132,
+        141,
+        142,
+        151,
+        152,
+        292
+      ]
+    },
+    "day": 48,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "Vinci",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 71,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": [
+        71,
+        73,
+        81,
+        83,
+        91,
+        93,
+        292
+      ]
+    },
+    "day": 57,
+    "heure_debut": "08h00",
+    "heure_fin": "09h15",
+    "room": "Vinci",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 202,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Leticia",
+      "name": "Leticia",
+      "courses": [
+        202,
+        212,
+        222
+      ]
+    },
+    "day": 40,
+    "heure_debut": "11h00",
+    "heure_fin": "12h15",
+    "room": "CSH006",
+    "building": "CSH",
+    "session_type": "TD"
+  },
+  {
+    "course": 101,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Euler",
+      "name": "Euler",
+      "courses": [
+        101,
+        102,
+        111,
+        121,
+        122,
+        161,
+        162,
+        292
+      ]
+    },
+    "day": 66,
+    "heure_debut": "09h30",
+    "heure_fin": "10h45",
+    "room": "Amphi111",
+    "building": "Principal",
+    "session_type": "CM"
+  },
+  {
+    "course": 112,
+    "group": [
+      {
+        "id": "1_C",
+        "headcount": 30
+      }
+    ],
+    "teacher": {
+      "id": "T_Tom",
+      "name": "Tom",
+      "courses": []
+    },
+    "day": 65,
+    "heure_debut": "15h30",
+    "heure_fin": "16h45",
+    "room": "Amphi101",
+    "building": "Principal",
+    "session_type": "TD"
+  },
+  {
+    "course": 93,
+    "group": [
+      {
+        "id": "1_E",
+        "headcount": 25
+      }
+    ],
+    "teacher": {
+      "id": "T_Remy",
+      "name": "Remy",
+      "courses": []
+    },
+    "day": 38,
+    "heure_debut": "17h00",
+    "heure_fin": "18h15",
+    "room": "Amphi112",
+    "building": "Principal",
+    "session_type": "CM"
   }
 ]

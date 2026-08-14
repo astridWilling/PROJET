@@ -608,7 +608,7 @@ else:
                                   closer_group_weight=CLOSER_GROUP_WEIGHT,
                                   closer_teacher_weight=CLOSER_TEACHER_WEIGHT)
         scorers = [(fn, w) for _, fn, w in named_scorers]
-        valid_starts = sorted(set(hm(item.heure_debut) for item in edt))
+        valid_starts = sorted(gen_to_perturb.hm(t) for t in gen_to_perturb.SLOT_TABLE)
 
         current_schedule, all_truly_cancelled, all_put_back, total_attempted, sstatus, all_rescheduled, _fs_added, _fs_not_added, _fs_removed, _fs_not_removed, _fs_originals = full_solve(
             schedule=edt,
