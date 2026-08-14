@@ -13,19 +13,26 @@ path_main = os.path.join(HERE,"pipeline.py")
 data_filename = ["data_instance.json"]
 specs_filename = ["specs.json"]
 
-data_path = os.path.join(GEN_DATA,"data_instance_gen.json")
+parts = data_filename[0].split(".") ; instance = parts[0]+"_gen."+parts[1]
+data_path = os.path.join(GEN_DATA,data_filename[0])
+gen_path = os.path.join(GEN_DATA,instance)
 with open(data_path,'r',encoding='utf-8') as d:
     data = json.load(d)
 nb_weeks = data["meta"]["nb_weeks"]
 
 #! ---------------- Generator
+edt_raw = "edt_test"
 gen = ["Y",
-        f"{data_path}", str(nb_weeks),
+        f"{gen_path}", str(nb_weeks),
         "60","60","8","","2","2","2",
+        edt_raw,
         "y"
        ]
 
 #! ---------------- Perturbations
+# ------------ Setup ------------ #
+psetup = data_filename + specs_filename + [edt_raw+".json"] + [edt_raw+"_perturb.json"]
+
 # ------------ Aujourd'hui ------------ #
 ajd = ["13"] # "" pour regarder tout l'edt
 
@@ -46,7 +53,7 @@ perturbs = [
     "9", "Elec", "1_G", "CM", "7", ""
 ]
 
-side_eff = data_filename+gen+ajd+perturbs+full_solve
+side_eff = data_filename+gen+psetup+ajd+perturbs+full_solve
 
 with patch("builtins.input", side_effect=side_eff):
     runpy.run_path(path_main, run_name="__main__")

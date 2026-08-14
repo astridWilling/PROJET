@@ -3,6 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "Perturbations")) #Permet de résoudre les problèmes d'import des modules de Perturbations
 
 import extractor_project
+import gen_to_perturb
 from Perturbations.gestion import *
 from Perturbations.scenarios import *
 from Perturbations.solver import full_solve, collect_absent_intervals
@@ -29,14 +30,28 @@ STATIC_SCORERS = [
 CLOSER_GROUP_WEIGHT   = 0.4
 CLOSER_TEACHER_WEIGHT = 0.3
 
+d = input(">>> Donner le nom du fichier de data (qui est dans Generator/Data) : > ")
+data_filename = os.path.join(gen_to_perturb.GEN_DATA,d)
+s = input(">>> Donner le nomp du fichier de specs (qui est dans Perturbations/Data) : > ")
+specs_filename = os.path.join(gen_to_perturb.PER_DATA,s)
+edt = input(">>> Donner le nom du fichier edt (qui est dans Generator/EDT) : > ")
+edt_filename = os.path.join(gen_to_perturb.GEN_EDT,edt)
+o = input(">>> Donner le nom du fichier de sortie (edt conforme pour la Perturbation qui sera dans Pertuabtions/edt) : > ")
+output_filename = os.path.join(gen_to_perturb.PER_EDT,o)
+
+print("Début gen_to_perturb")
+gen_to_perturb.create_compatible(data_filename,edt_filename,specs_filename,output_filename)
+print("Fin gen_to_perturb")
+
 
 # ---------------------------------------------------------------------------
 # Création des variables globales pour la résolution faite dans extractor.py
 # ---------------------------------------------------------------------------
-
-edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extractor_project.extraction(specs_filename="specs.json",data_filename="data_instance.json",edt_filename="test")
-affichage_html_complet(edt, nb_days=nb_days, courses=courses_list, rooms=rooms_list, filename="test.html", lunch_debut_min=LUNCH_DEBUT_MIN, lunch_fin_min=LUNCH_FIN_MIN, deadline_days=deadline_days)
-affichage_html_heures(edt, courses_list, teachers_list, filename="heures_base_semestre.html")  # rapport initial dans edt/
+print("Début extraction et affichage html")
+edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extractor_project.extraction(specs_filename=specs_filename,data_filename=data_filename,edt_filename=o.split(".")[0])
+affichage_html_complet(edt, nb_days=nb_days, courses=courses_list, rooms=rooms_list, filename=o.split(".")[0]+".html", lunch_debut_min=LUNCH_DEBUT_MIN, lunch_fin_min=LUNCH_FIN_MIN, deadline_days=deadline_days)
+affichage_html_heures(edt, courses_list, teachers_list, filename="heures_"+o.split(".")[0]+".html")  # rapport initial dans edt/
+print("Fin extraction et affichage html")
 
 rooms_map = {r.name: r for r in rooms_list}
 teachers_map = {t.id: t for t in teachers_list}

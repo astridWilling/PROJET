@@ -187,8 +187,7 @@ def create_compatible(data_filename: str, edt_filename: str, specs_filename: str
             json.dump(l,file,ensure_ascii=False,indent=2)
             print(f"Edt compatible Perturbations sauvegardé : {filepath}")
     else:
-        pass
+        print("Fichier conforme vide, non généré")
 
-create_compatible("data_instance.json","instance_gen.json","specs.json","test.json")
         
 
