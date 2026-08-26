@@ -10,8 +10,8 @@ PER_DATA = os.path.join(HERE, "Perturbations/Data")
 PER_EDT = os.path.join(HERE,"Perturbations/edt")
 
 # ------- Table de conversion slot/heure ------- #
-SLOT_TABLE = ["08h00", "09h30", "11h00", "12h15", "13h00", "14h00", "15h30", "17h00"] #Table des créneaux horaires (pour HTML et scoring uniquement)
-
+# SLOT_TABLE = ["08h00", "09h30", "11h00", "12h15", "13h00", "14h00", "15h30", "17h00"] #Table des créneaux horaires (pour HTML et scoring uniquement)
+SLOT_TABLE = ["08h00", "09h30", "11h00", "12h15", "13h45", "15h15", "16h45", "18h15"]  #Table qui résout le problème des durées trop courtes pour certains slots
 
 # ------- Helpers ------- #
 def _actual_course_id(term_course_id: str):
@@ -129,7 +129,18 @@ def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
             return []
         slot = item["slot"]
         heure_debut = SLOT_TABLE[slot]
-        heure_fin = min_to_hm(hm(heure_debut)+data["time_grid"]["slot_duration_min"])
+        # heure_fin = min_to_hm(hm(heure_debut)+data["time_grid"]["slot_duration_min"])
+        ################
+        #! FIXME : Problème de durée entre les débuts de cours possible pour 12h15,13h,14h 
+                        #!=> pour le moment on résout en coupant la durée du cours mais c'est pas viable pour la suite
+        if slot + 1 < len(SLOT_TABLE):
+            heure_fin = min_to_hm(
+                min(hm(heure_debut) + data["time_grid"]["slot_duration_min"],
+                    hm(SLOT_TABLE[slot + 1]))
+            )
+        else:
+            heure_fin = min_to_hm(hm(heure_debut) + data["time_grid"]["slot_duration_min"])
+        #################
 
         room = item["room"]
         #building

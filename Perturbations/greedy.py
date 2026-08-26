@@ -288,6 +288,8 @@ def is_valid_assignment_with_blocked(
 
     return True
 
+#! Rajouter locked_slot a is_valid_assignment pour pouvoir ajouter le if lunch_overlap > 0 and not locked_slot au lieu de juste if lunch_overlap > 0
+            #! => permet de ne pas bloquer le changement de salle quand on lance une perturbation salle indispo avec perturb.py quand la session est dans un lunch_slot
 def try_place_with_blocked(
     item:             ScheduleItem,
     course:           Course,

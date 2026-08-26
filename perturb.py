@@ -32,7 +32,7 @@ CLOSER_TEACHER_WEIGHT = 0.3
 
 d = input(">>> Donner le nom du fichier de data (qui est dans Generator/Data) : > ")
 data_filename = os.path.join(gen_to_perturb.GEN_DATA,d)
-s = input(">>> Donner le nomp du fichier de specs (qui est dans Perturbations/Data) : > ")
+s = input(">>> Donner le nom du fichier de specs (qui est dans Perturbations/Data) : > ")
 specs_filename = os.path.join(gen_to_perturb.PER_DATA,s)
 edt = input(">>> Donner le nom du fichier edt (qui est dans Generator/EDT) : > ")
 edt_filename = os.path.join(gen_to_perturb.GEN_EDT,edt)

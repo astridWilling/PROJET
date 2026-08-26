@@ -680,6 +680,8 @@ def move_all(
     #----------------------------------------------------------------------------------------
     new_schedule = list(schedule)
 
+    course_map = {c.id: c for c in courses}
+
     to_place = []
     not_found = []
 
@@ -687,7 +689,7 @@ def move_all(
 
     for item, day, heure_debut in to_move_fr:
         if item not in new_schedule:
-            print(f"Cours {item.course} du groupe {item.group} ({fmt_abs_day(item.day)}, {item.heure_debut}-{item.heure_fin} introuvable)")
+            print(f"Cours {course_map[item.course].name} du groupe {item.group} ({fmt_abs_day(item.day)}, {item.heure_debut}-{item.heure_fin} introuvable)")
             not_found.append(item)
         else:
             new_schedule.remove(item)

@@ -172,7 +172,7 @@ def solve_perturbation(
 
                 # Lunch constraint — basée sur occupation fixe uniquement
                 lunch_ov = max(0, min(end_min, lunch_fin_min) - max(start_min, lunch_debut_min))
-                if lunch_ov > 0:
+                if lunch_ov > 0 and not locked_slot:  #On teste sur locked_slots pour que ca prenne pas en compte quand les cours sont deja placés dans les lunch_slots (salle indispo) et qu'on le bouge pas
                     lw    = lunch_fin_min - lunch_debut_min
                     g_occ = max((lunch_fixed_group.get((g.id, d), 0) for g in item.group), default=0)
                     t_occ = lunch_fixed_teacher.get((c.teacher.id, d), 0)
@@ -225,9 +225,9 @@ def solve_perturbation(
                     if blocked:
                         continue
 
-                    key = (item.course, d, start_min, r.name)
+                    key = ((item.course,id(item)), d, start_min, r.name)
                     X[key] = model.NewBoolVar(f"x_{item.course}_{d}_{start_min}_{r.name}")
-                    valid_placements[item.course].append((d, start_min, r.name))
+                    valid_placements[(item.course,id(item))].append((d, start_min, r.name))
 
     # ------------------------------------------------------------------
     # Contrainte 1 — chaque cours placé exactement une fois
@@ -237,7 +237,7 @@ def solve_perturbation(
     cancelled_items: List[ScheduleItem] = []
 
     for item in to_reschedule:
-        placements = valid_placements[item.course]
+        placements = valid_placements[(item.course, id(item))]
         if not placements:
             c_key = base_course_id(item.course)
             c     = course_map.get(c_key) or course_map.get(str(c_key))
@@ -247,12 +247,12 @@ def solve_perturbation(
             if nb_blocked_teacher.get(id(item), 0) > 0 : reason.append(f"Aucun créneau avec un professeur disponible")
             if nb_blocked_group.get(id(item), 0) > 0 : reason.append(f"Aucun créneau où le groupe est disponible")
             if nb_blocked_room.get(id(item), 0) > 0 : reason.append(f"Aucun créneau avec une salle disponible")
-            print(f"  [!] Aucun placement valide pour {item.course} {', '.join([g.id for g in item.group])} ({fmt_abs_day(item.day)}, {item.heure_debut}-{item.heure_fin} — {', '.join(reason) if reason else 'contraintes planning'}")
+            print(f"  [!] Aucun placement valide pour {course_map[item.course].name} {', '.join([g.id for g in item.group])} ({fmt_abs_day(item.day)}, {item.heure_debut}-{item.heure_fin} — {', '.join(reason) if reason else 'contraintes planning'}")
 
             cancelled_items.append(item)
             continue
         placed_items.append(item)
-        model.AddExactlyOne(X[(item.course, d, s, r)] for (d, s, r) in placements)
+        model.AddExactlyOne(X[((item.course,id(item)), d, s, r)] for (d, s, r) in placements)
 
     # ------------------------------------------------------------------
     # Contrainte 2 — pas de chevauchement via IntervalVar + AddNoOverlap
@@ -273,9 +273,9 @@ def solve_perturbation(
         c     = course_map.get(c_key) or course_map.get(str(c_key))
         dur   = hm(item.heure_fin) - hm(item.heure_debut)
 
-        for (d, start_min, r_name) in valid_placements[item.course]:
+        for (d, start_min, r_name) in valid_placements[(item.course,id(item))]:
             end_min = start_min + dur
-            bv = X[(item.course, d, start_min, r_name)]
+            bv = X[((item.course,id(item)), d, start_min, r_name)]
             sfx = f"{item.course}_{d}_{start_min}"
 
             for gid in _expand_groups(item.group):
@@ -310,7 +310,7 @@ def solve_perturbation(
             c_key = base_course_id(item.course)
             c     = course_map.get(c_key) or course_map.get(str(c_key))
             dur   = hm(item.heure_fin) - hm(item.heure_debut)
-            for (d, start_min, r_name) in valid_placements[item.course]:
+            for (d, start_min, r_name) in valid_placements[(item.course,id(item))]:
                 r = room_map.get(r_name)
                 if r is None:
                     continue
@@ -323,7 +323,7 @@ def solve_perturbation(
                 )
                 if soft_pen != 0:
                     pen_int = int(round(soft_pen * 100))
-                    penalties.append(pen_int * X[(item.course, d, start_min, r_name)])
+                    penalties.append(pen_int * X[((item.course,id(item)), d, start_min, r_name)])
 
     if penalties:
         model.Minimize(sum(penalties))
@@ -350,8 +350,8 @@ def solve_perturbation(
     for item in placed_items:
         dur = hm(item.heure_fin) - hm(item.heure_debut)
         placed = False
-        for (d, start_min, r_name) in valid_placements[item.course]:
-            if solver.Value(X[(item.course, d, start_min, r_name)]) == 1:
+        for (d, start_min, r_name) in valid_placements[(item.course,id(item))]:
+            if solver.Value(X[((item.course,id(item)), d, start_min, r_name)]) == 1:
                 r_obj    = room_map.get(r_name)
                 new_item = item._replace(
                     day=d,
@@ -1591,7 +1591,7 @@ def solve_all_perturbations(
 
                 # Lunch constraint — basée sur occupation fixe uniquement
                 lunch_ov = max(0, min(end_min, lunch_fin_min) - max(start_min, lunch_debut_min))
-                if lunch_ov > 0:
+                if lunch_ov > 0 and not locked_slot:
                     lw    = lunch_fin_min - lunch_debut_min
                     g_occ = max((lunch_fixed_group.get((g.id, d), 0) for g in item.group), default=0)
                     t_occ = lunch_fixed_teacher.get((item.teacher.id, d), 0)
