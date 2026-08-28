@@ -56,6 +56,10 @@ def _group_conflict(group: str, day: int, t1: int, t2: int,
 def _do_place(item: ScheduleItem, day: int, heure_debut: str, heure_fin: str, room: Room,
               new_schedule: List[ScheduleItem],
               group_day_index: dict, occ_room: OccRoom, occ_teacher: OccTeacher) -> None:
+    """
+    Place la session à l'endroit demandé : remplace les champs day, heure_debut, heure_fin, room dans l'item passée et la place dans l'emploi du temps (new_schedule)
+    Modifie group_day_index, occ_room, occ_teacher en place.
+    """
     new_item = item._replace(day=day, heure_debut=heure_debut, heure_fin=heure_fin,
                              room=room.name, building=room.bat)
     new_schedule.append(new_item)
@@ -85,6 +89,10 @@ def is_valid_assignment(
     ) -> bool:
     """
     Vérifie si l'item peut être placé à (day, heure_debut, heure_fin) dans room.
+
+    absent_intervals : [(jour, heure_debut, heure_fin), ...] , les créneaux d'absence de l'objet de la perturbation (prof si teacher_absent, salle si room_unavailable,...)
+
+    Retourne True si le placement est valide, False sinon.
     """
     total_hc = sum(g.headcount for g in item.group)
     if room.capacity < total_hc:                                      return False
@@ -147,7 +155,10 @@ def try_place(
 ) -> bool:
     """
     Greedy : cherche le meilleur placement valide parmi tous les candidats, et place l'item.
-    locked_slot = (day, heure_debut) pour forcer jour ET créneau (ex: room_unavailable).
+
+    locked_slot = (day, heure_debut) pour forcer jour ET créneau (ex: room_unavailable)
+
+    Retourne True si le placement a été trouvé et appliqué, False sinon.
     """
     scorers  = soft_scorers or []
     dur_min  = hm(item.heure_fin) - hm(item.heure_debut)
@@ -258,6 +269,16 @@ def is_valid_assignment_with_blocked(
     groups_blocked:   dict,  # group_id   -> [(day, h_debut, h_fin), ...]
     rooms_blocked:    dict,  # room_name  -> [(day, h_debut, h_fin), ...]
 ) -> bool:
+    """
+    Vérifie si l'item peut être placé à (day, heure_debut, heure_fin) dans room, tout en prenant en compte les créneaux d'absence des profs et groupes, et créneaux d'indisponibilité des salles
+
+    absent_intervals : [(jour, heure_debut, heure_fin), ...] , les créneaux d'absence de l'objet de la perturbation (prof si teacher_absent, salle si room_unavailable,...)
+    teacher_blocked : dict de tous les créneaux d'absence de chaque professeur {teacher_id: [(day, h_debut, h_fin), ...]}
+    groups_blocked : dict de tous les créneaux d'absence de chaque groupe {group_id -> [(day, h_debut, h_fin), ...] }
+    rooms_blocked : ditc de tous les créneaux d'indisponibilité de chaque salle {room_name -> [(day, h_debut, h_fin), ...]}
+
+    Retourne True si le placement est valide, False sinon.
+    """
     if not is_valid_assignment(
         item, course, day, heure_debut, heure_fin, room,
         absent_intervals, lunch_debut_min, lunch_fin_min,
@@ -311,8 +332,16 @@ def try_place_with_blocked(
     locked_slot:      "Optional[Tuple[int, str]]" = None,
 ) -> bool:
     """
-    Greedy : cherche le meilleur placement valide parmi tous les candidats.
+    Greedy : cherche le meilleur placement valide parmi tous les candidats, tout en prenant en compte les créneaux d'absence des profs et groupes, et créneaux d'indisponibilité des salles
+
+    absent_intervals : [(jour, heure_debut, heure_fin), ...] , les créneaux d'absence de l'objet de la perturbation (prof si teacher_absent, salle si room_unavailable,...)
+    teacher_blocked : dict de tous les créneaux d'absence de chaque professeur {teacher_id: [(day, h_debut, h_fin), ...]}
+    groups_blocked : dict de tous les créneaux d'absence de chaque groupe {group_id -> [(day, h_debut, h_fin), ...] }
+    rooms_blocked : ditc de tous les créneaux d'indisponibilité de chaque salle {room_name -> [(day, h_debut, h_fin), ...]}
+    min_day : premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
     locked_slot = (day, heure_debut) pour forcer jour ET créneau (ex: room_unavailable).
+
+    Retourne True si le placement a été trouvé et appliqué, False sinon.
     """
     scorers  = soft_scorers or []
     dur_min  = hm(item.heure_fin) - hm(item.heure_debut)
@@ -399,8 +428,20 @@ def greedy_fallback_with_blocked(
     locked_slots:     Optional[dict] = None,
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem]]:
     """
-    Greedy cours par cours.  Retourne (new_schedule, cancelled, rescheduled).
-    rescheduled = items effectivement placés (avec leur nouvelle position).
+    Greedy cours par cours qui prend en compte les créneaux d'absence ou d'indisponibilité de tous les profs, groupes et salles.
+
+    absent_intervals : [(jour, heure_debut, heure_fin), ...] , les créneaux d'absence de l'objet de la perturbation (prof si teacher_absent, salle si room_unavailable,...)
+    teacher_blocked : dict de tous les créneaux d'absence de chaque professeur {teacher_id: [(day, h_debut, h_fin), ...]}
+    groups_blocked : dict de tous les créneaux d'absence de chaque groupe {group_id -> [(day, h_debut, h_fin), ...] }
+    rooms_blocked : ditc de tous les créneaux d'indisponibilité de chaque salle {room_name -> [(day, h_debut, h_fin), ...]}
+    min_day : premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+    locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau (type 2)
+
+    
+    Retourne (new_schedule, cancelled, new_schedule[n_fixed:]) :
+      - new_schedule : fixed_schedule + cours replacés (None si échec)
+      - cancelled    : cours non placés
+      - new_schedule[n_fixed:] : liste des items effectivement ajoutés par le greedy au fixed_schedule
     """
     course_map = {c.id: c for c in courses}
     course_map.update({str(c.id): c for c in courses})

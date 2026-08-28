@@ -31,7 +31,7 @@ CLOSER_TEACHER_WEIGHT = 0.3
 # Création des variables globales pour la résolution faite dans extractor.py
 # ---------------------------------------------------------------------------
 
-edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extraction(filepath="Data/edt_semestre.csv", affichage_html=False)
+edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extraction(filepath="Data/edt_semestre.csv", specs_filepath="Data/specs.json", affichage_html=False)
 # affichage_html_heures(edt, courses_list, teachers_list, filename="heures_base_semestre.html")  # rapport initial dans edt/
 
 rooms_map = {r.name: r for r in rooms_list}

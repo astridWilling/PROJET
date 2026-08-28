@@ -100,7 +100,18 @@ def teacher_absent(
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], int, str, List[ScheduleItem], List[ScheduleItem]]:
     """
     Replanifie les cours d'un prof qui chevauche absent_intervals.
+
     absent_intervals : [(jour, heure_debut, heure_fin), ...]
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+    min_day: premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+
+    Retourne (new_schedule, cancelled, n_attempted, solver_status, rescheduled, to_reschedule) :
+          - new_schedule : emploi du temps résolu
+          - cancelled : liste des sessions pour lesquelles un nouveau placement n'a pas été trouvé
+          - n_attempted : nombre de sessions qui avaient besoin d'un remplacement de professeur
+          - solver_status : statut de la résolution (statut de CP-SAT ou GREEDY)
+          - rescheduled : liste des sessions qui ont été déplacées dans l'emploi du temps
+          - to_reschedule : liste des sessions impactées par la perturbation
     """
     valid_starts = _valid_starts_from(schedule)
 
@@ -159,7 +170,19 @@ def room_unavailable(
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], int, str, List[ScheduleItem], List[ScheduleItem]]:
     """
     Replanifie les sessions dont la salle est indisponible.
+
     absent_intervals=None → salle retirée de toute la semaine.
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+    min_day: premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+
+    Retourne (new_schedule, cancelled, n_attempted, solver_status, rescheduled, to_reschedule) :
+          - new_schedule : emploi du temps résolu
+          - cancelled : liste des sessions pour lesquelles un nouveau placement n'a pas été trouvé
+          - n_attempted : nombre de sessions qui avaient besoin d'un remplacement de professeur
+          - solver_status : statut de la résolution (statut de CP-SAT ou GREEDY)
+          - rescheduled : liste des sessions qui ont été déplacées dans l'emploi du temps
+          - to_reschedule : liste des sessions impactées par la perturbation
     """
     valid_starts = _valid_starts_from(schedule)
 
@@ -232,6 +255,17 @@ def free_slot(
 
     groups=None  → tous les groupes sont concernés (JPO, événement école...)
     groups=[...] → seulement ces groupes (filière, promo...)
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+    min_day: premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+
+    Retourne (new_schedule, cancelled, n_attempted, solver_status, rescheduled, to_reschedule) :
+          - new_schedule : emploi du temps résolu
+          - cancelled : liste des sessions pour lesquelles un nouveau placement n'a pas été trouvé
+          - n_attempted : nombre de sessions qui avaient besoin d'un remplacement de professeur
+          - solver_status : statut de la résolution (statut de CP-SAT ou GREEDY)
+          - rescheduled : liste des sessions qui ont été déplacées dans l'emploi du temps
+          - to_reschedule : liste des sessions impactées par la perturbation
     """
     valid_starts = _valid_starts_from(schedule)
 
@@ -343,6 +377,15 @@ def teacher_replacement(
       target_session_type : filtre sur un type de séance (ex: "TD", "CM", "TP")
       absent_intervals    : [(jour, hdebut, hfin), ...] — None = toute la semaine
       (absent_teacher_id ou target_course_id requis, les autres sont des affinations)
+      global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+
+
+    Retourne (new_schedule, unresolved, n_attempted, status, assignment_log) :
+          - new_schedule : emploi du temps résolu
+          - unresolved : liste des sessions pour lesquelles un remplaçant n'a pas été trouvé
+          - n_attempted : nombre de sessions qui avaient besoin d'un remplacement de professeur
+          - status : statut de la résolution (statut de CP-SAT ou GREEDY)
+          - assignment_log : liste de dicts contenant toutes les informations de remplacement pour chaque session
     """
     course_map = {c.id: c for c in courses}
     course_map.update({str(c.id): c for c in courses})
@@ -668,8 +711,11 @@ def move_all(
     retire tous les items d'abord, puis les replace séquentiellement.
 
     to_move : [(item, target_day, heure_debut_optionnelle), ...]
+    keep_room : sessions gardent leur salle originelle si True, sinon on leur assigne la meilleure salle selon les contraintes souples
+    slot_picker_fn : fonction de choix du slot où placer la session parmi ceux possibles
 
     Retourne (new_schedule, all_done, nb_done, placed_items) :
+      - new_schedule : emploi du temps résolu
       - all_done     : True si tous les items ont été placés
       - nb_done      : nombre d'items effectivement placés
       - placed_items : ScheduleItem placé (ou None) pour chaque item de to_place, dans l'ordre
@@ -761,7 +807,20 @@ def permutation(
         global_absent: dict = {},
         ) -> Tuple[List[ScheduleItem], bool, List[ScheduleItem]]:
     """
-    [!] A COMPLETER
+    Permute deux sessions données (perm1 et perm2). 
+    Si keep_room, les sessions permutées conservent leur salle d'origine, sinon on leur assigne la meilleure salle selon les contraintes souples
+    Si move_courses, si la permutation échoue, on tente de déplacer la ou les sessions qui ont échoué à un créneau de libre le jour visé par la permutation
+        sinon les sessions à permuter sont replacées à leur créneau originel.
+    Si tout cela n'abouti pas, le new_schedule renvoyé est en fait schedule (aucun changement)
+
+    slot_picker_fn : fonction de choix du slot où placer la session parmi ceux possibles
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+
+    Retourne (new_schedule, done, placed_items) :
+          - new_schedule : emploi du temps résolu
+          - done : True si permutation réusie, False sinon
+          - placed_items : liste des nouvelles sessions après la permutation
     """
     picker       = slot_picker_fn if slot_picker_fn is not None else get_slot
     new_schedule = list(schedule)
@@ -936,11 +995,20 @@ def all_room_change(
         global_absent: dict = {},
         ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str, List[ScheduleItem], List[ScheduleItem]]:
     """
-    Retourne (new_schedule, exact_items, moved_items, status, not_done, specific_not_done).
-      exact_items      : salle demandée attribuée directement
-      moved_items      : meilleure salle trouvée par CP-SAT/greedy (peut être la salle d'origine)
-      not_done         : aucune salle valide (envoyés en CP-SAT/greedy)
-      specific_not_done: salle précise indisponible et best_room=False
+    to_change : soit une session dont il faut changer la salle en la meilleure salle selon les contraintes dures,
+                    soit une session, une salle précise et best_room indique si on doit rechercher la meilleure salle selon les contraintes souples si la salle précise échoue
+                                ou simplement remettre la session dans sa salle originelle
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+
+
+    Retourne (new_schedule, exact_items, moved_items, status, not_done, specific_not_done) :
+          - new_schedule : emploi du temps résolu
+          - exact_items : liste des sessions pour lesquelles la salle demandée a été obtenue directement
+          - moved_items : liste des sessions pour lesquelles la salle obtenue est la meilleure selone les contraintes souples
+          - status : statut de la résolution (statut de CP-SAT ou GREEDY)
+          - not_done : liste des sessions pour lesquelles nous n'avons pas pu changer la salle
+          - specific_not_done : liste des sessions pour lesquelles la salle précise demandée n'a pas pu être obtenue et donc ont été remises dans leur salle originelle (best_room=False)
     """
     new_schedule = list(schedule)
 
@@ -1072,9 +1140,17 @@ def add_sessions(
         soft_scorers: Optional[ScorerList] = None,
         solver_timeout: int = 60,
         global_absent: dict = {},
-    ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str, List[ScheduleItem], List[ScheduleItem]]:
+    ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str]:
     """
-    [!] A COMPLETER // AJOUTER UNE SESSION D'UN COURS DEJA EXISTANT!!!! (donc pas de récurrence, et course est deja dans courses!)
+    Ajoute de nouvelles sessions à des cours déjà existant.
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+
+    Retourne (new_schedule, done, not_done, status) :
+          - new_schedule : emploi du temps résolu
+          - done : liste des sessions qui ont pu être ajoutées
+          - not_done : liste des sessions qui n'ont pas pu être ajoutées
+          - status : statut de la résolution (statut de CP-SAT ou GREEDY)
     """
     valid_starts = _valid_starts_from(schedule)
     new_schedule = list(schedule)
@@ -1222,7 +1298,13 @@ def remove_sessions(
         to_remove: List[ScheduleItem],
     ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str]:
     """
-    [!] A COMPLETER
+    Supprime des sessions de l'emploi du temps.
+
+    Retourne (new_schedule, ok, not_ok, status) :
+          - new_schedule : emploi du temps résolu
+          - ok : liste des sessions supprimées
+          - not_ok : liste des sessions qui n'ont pas pu être supprimées
+          - status : statut de la résolution (statut de CP-SAT)
     """
     new_schedule = list(schedule)
 

@@ -1,0 +1,65 @@
+{
+  "teachers": [
+    {"id": "T1", "name": "Prof_1"},
+    {"id": "T2", "name": "Prof_2"},
+    {"id": "T3", "name": "Prof_3"},
+    {"id": "T4", "name": "Prof_4"},
+    {"id": "T5", "name": "Prof_5"},
+    {"id": "T6", "name": "Prof_6"},
+    {"id": "T7", "name": "Prof_7"},
+    {"id": "T8", "name": "Prof_8"},
+    {"id": "T9", "name": "Prof_9"},
+    {"id": "T10", "name": "Prof_10"}
+  ],
+
+  "groups": [
+    {"id": "A", "size": 35},
+    {"id": "B", "size": 35},
+    {"id": "C", "size": 35},
+    {"id": "D", "size": 35}
+  ],
+
+  "rooms": [
+    {"name": "CM1", "capacity": 200, "room_types": ["CM"]},
+    {"name": "CM2", "capacity": 150, "room_types": ["CM"]},
+
+    {"name": "TD1", "capacity": 40, "room_types": ["TD"]},
+    {"name": "TD2", "capacity": 40, "room_types": ["TD"]},
+    {"name": "TD3", "capacity": 40, "room_types": ["TD"]},
+    {"name": "TD4", "capacity": 40, "room_types": ["TD"]},
+
+    {"name": "INFO1", "capacity": 35, "room_types": ["INFO"]},
+    {"name": "INFO2", "capacity": 35, "room_types": ["INFO"]},
+    {"name": "INFO3", "capacity": 35, "room_types": ["INFO"]}
+  ],
+
+  "courses": [
+    {"id": 1, "name": "MathA", "teacher": "T1", "group": "A", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 2, "name": "AlgoA", "teacher": "T2", "group": "A", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 3, "name": "PhysA", "teacher": "T3", "group": "A", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 4, "name": "ProjetA", "teacher": "T4", "group": "A", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 5, "name": "AnglaisA", "teacher": "T5", "group": "A", "room_types": ["TD"], "slots_per_week": 2},
+    {"id": 6, "name": "CMSciA", "teacher": "T6", "group": "A", "room_types": ["CM"], "slots_per_week": 2},
+
+    {"id": 7, "name": "MathB", "teacher": "T1", "group": "B", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 8, "name": "AlgoB", "teacher": "T2", "group": "B", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 9, "name": "PhysB", "teacher": "T3", "group": "B", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 10, "name": "ProjetB", "teacher": "T4", "group": "B", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 11, "name": "AnglaisB", "teacher": "T5", "group": "B", "room_types": ["TD"], "slots_per_week": 2},
+    {"id": 12, "name": "CMSciB", "teacher": "T6", "group": "B", "room_types": ["CM"], "slots_per_week": 2},
+
+    {"id": 13, "name": "MathC", "teacher": "T7", "group": "C", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 14, "name": "AlgoC", "teacher": "T8", "group": "C", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 15, "name": "PhysC", "teacher": "T9", "group": "C", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 16, "name": "ProjetC", "teacher": "T10", "group": "C", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 17, "name": "AnglaisC", "teacher": "T5", "group": "C", "room_types": ["TD"], "slots_per_week": 2},
+    {"id": 18, "name": "CMSciC", "teacher": "T6", "group": "C", "room_types": ["CM"], "slots_per_week": 2},
+
+    {"id": 19, "name": "MathD", "teacher": "T7", "group": "D", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 20, "name": "AlgoD", "teacher": "T8", "group": "D", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 21, "name": "PhysD", "teacher": "T9", "group": "D", "room_types": ["TD"], "slots_per_week": 4},
+    {"id": 22, "name": "ProjetD", "teacher": "T10", "group": "D", "room_types": ["INFO"], "slots_per_week": 4},
+    {"id": 23, "name": "AnglaisD", "teacher": "T5", "group": "D", "room_types": ["TD"], "slots_per_week": 2},
+    {"id": 24, "name": "CMSciD", "teacher": "T6", "group": "D", "room_types": ["CM"], "slots_per_week": 2}
+  ]
+}

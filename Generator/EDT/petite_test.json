@@ -1,0 +1,288 @@
+[
+  {
+    "week": 0,
+    "course": "1_w0_s0",
+    "group": "A",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi1"
+  },
+  {
+    "week": 0,
+    "course": "4_w0_s0",
+    "group": "B",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi1"
+  },
+  {
+    "week": 1,
+    "course": "1_w1_s1",
+    "group": "A",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "TD1"
+  },
+  {
+    "week": 1,
+    "course": "4_w1_s1",
+    "group": "B",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 2,
+    "course": "1_w2_s2",
+    "group": "A",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "Amphi1"
+  },
+  {
+    "week": 2,
+    "course": "4_w2_s2",
+    "group": "B",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi1"
+  },
+  {
+    "week": 3,
+    "course": "1_w3_s3",
+    "group": "A",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "TD1"
+  },
+  {
+    "week": 3,
+    "course": "4_w3_s3",
+    "group": "B",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 4,
+    "course": "1_w4_s4",
+    "group": "A",
+    "teacher": {
+      "id": "T1",
+      "name": "Prof_Maths",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 5,
+    "course": "6_w5_s0",
+    "group": "B",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 6,
+    "course": "3_w6_s0",
+    "group": "A",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 7,
+    "course": "3_w7_s1",
+    "group": "A",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "TD1"
+  },
+  {
+    "week": 7,
+    "course": "6_w7_s1",
+    "group": "B",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 8,
+    "course": "3_w8_s2",
+    "group": "A",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 9,
+    "course": "6_w9_s2",
+    "group": "B",
+    "teacher": {
+      "id": "T3",
+      "name": "Prof_Anglais",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "TD1"
+  },
+  {
+    "week": 10,
+    "course": "5_w10_s0",
+    "group": "B",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi1"
+  },
+  {
+    "week": 11,
+    "course": "2_w11_s0",
+    "group": "A",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi1"
+  },
+  {
+    "week": 12,
+    "course": "2_w12_s1",
+    "group": "A",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 1,
+    "room": "Amphi1"
+  },
+  {
+    "week": 13,
+    "course": "2_w13_s2",
+    "group": "A",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "INFO1"
+  },
+  {
+    "week": 13,
+    "course": "5_w13_s1",
+    "group": "B",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "Amphi1"
+  },
+  {
+    "week": 14,
+    "course": "2_w14_s3",
+    "group": "A",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 0,
+    "room": "INFO1"
+  },
+  {
+    "week": 14,
+    "course": "5_w14_s2",
+    "group": "B",
+    "teacher": {
+      "id": "T2",
+      "name": "Prof_Algo",
+      "courses": []
+    },
+    "day": 0,
+    "slot": 2,
+    "room": "INFO1"
+  }
+]

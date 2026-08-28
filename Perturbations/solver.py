@@ -18,10 +18,12 @@ class BestSolutionCallback(cp_model.CpSolverSolutionCallback):
         self._solutions = []
 
     def on_solution_callback(self):
+        """Appelé par CP-SAT à chaque nouvelle solution trouvée. Enregistre le score courant."""
         self._solutions.append((self.WallTime(), self.ObjectiveValue()))
 
     @property
     def solutions(self):
+        """Liste des scores enregistrés à chaque solution intermédiaire trouvée par CP-SAT."""
         return self._solutions
 
 def _best_slot(candidates, day):
@@ -33,9 +35,9 @@ def collect_absent_intervals(list_perturb: List[dict], group_list: List["Group"]
     Crée un dict de listes d'intervalle d'absence par entité (prof, salle, groupe) à partir de la liste de perturbations.
 
     Retourne : {
-        "teacher": {teacher_id: [(day, start, end), ...], ...},
-        "room":    {room_name: [(day, start, end), ...], ...},
-        "group":   {group_id: [(day, start, end), ...], ...},
+        "teachers": {teacher_id: [(day, start, end), ...], ...},
+        "rooms":    {room_name: [(day, start, end), ...], ...},
+        "groups":   {group_id: [(day, start, end), ...], ...},
     }
     """
     absent_intervals={
@@ -44,13 +46,13 @@ def collect_absent_intervals(list_perturb: List[dict], group_list: List["Group"]
         "groups": {}
     }
     for perturb in list_perturb:
-        if perturb["type"] == 1:
+        if perturb["type"] == 1:  # teacher_absent
             tid = perturb["teacher_id"]
             if tid not in absent_intervals["teachers"]:
                 absent_intervals["teachers"][tid] = perturb["intervals"]
             else:
                 absent_intervals["teachers"][tid].extend(perturb["intervals"])
-        elif perturb["type"] == 2:
+        elif perturb["type"] == 2:  # room_unavailable
             if perturb["room"] is None:
                 for r in rooms_list:
                     rname = r.name if hasattr(r, "name") else r
@@ -68,7 +70,7 @@ def collect_absent_intervals(list_perturb: List[dict], group_list: List["Group"]
                     absent_intervals["rooms"][rname] = list(perturb["intervals"])
                 else:
                     absent_intervals["rooms"][rname].extend(perturb["intervals"])
-        elif perturb["type"] == 3:
+        elif perturb["type"] == 3:  # free_slot
             grp = perturb["groups"] if perturb["groups"] is not None else [g.id for g in group_list]
             for g in grp:
                 gid = g.id if hasattr(g, "id") else g
@@ -106,6 +108,11 @@ def solve_perturbation(
     """
     Tente de replanifier tous les cours de to_reschedule simultanément
     en CP-SAT.
+
+    absent_intervals : [(jour, heure_debut, heure_fin), ...]
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+    min_day: premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+    locked_slots : dict contenant les slots dans lesquels un item doit rester (cas de la salle indisponible : on change simplement la salle, mais pas le slot de la session)
 
     Retourne (new_schedule, cancelled, status_name) :
       - new_schedule : fixed_schedule + cours replacés (None si échec)
@@ -395,9 +402,16 @@ def resolve(
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], str, List[ScheduleItem]]:
     """
     Tente CP-SAT en premier.  Si le solveur échoue, repasse sur le greedy.
-    Retourne (new_schedule, cancelled, status, rescheduled).
-    rescheduled = items effectivement replacés avec leur nouvelle position.
+
     locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau.
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+    min_day: premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+
+    Retourne (new_schedule, cancelled, status, rescheduled) :
+      - new_schedule : fixed_schedule + cours replacés (None si échec)
+      - cancelled    : cours non placés
+      - status  : "OPTIMAL", "FEASIBLE", "INFEASIBLE", "UNKNOWN", ...
+      - rescheduled = items effectivement replacés avec leur nouvelle position.
     """
     if not to_reschedule:
         return list(fixed_schedule), [], "OPTIMAL", []
@@ -476,6 +490,8 @@ def find_candidates(
          (ignoré si possible_classes est None → le prof peut tout faire)
       3. Quota : le prof a encore des heures disponibles
       4. Disponibilité : le prof est libre à ce créneau dans le planning fixe
+      
+    teachers_blocked : dict qui contient les jours et créneaux d'absence de tous les prof {teacher_id: (day,heure_debut,heure_fin)}
 
     Retourne : [(teacher, adequacy_score), ...] trié par score décroissant.
     Si verbose=True, affiche pourquoi chaque prof est exclu.
@@ -645,7 +661,7 @@ def solve_replacement(
 #* Solve pour des déplacement (CP-SAT)
 #*##########################################################
 def solve_move_all(
-    to_move:          List[Tuple[ScheduleItem, int, Optional[str]]],
+    to_move:          List[Tuple[ScheduleItem, int, Optional[str]]],     #(item,day,) | (item,day,heure_debut)
     fixed_schedule:   List[ScheduleItem],
     courses:          List[Course],
     rooms:            List[Room],
@@ -659,9 +675,9 @@ def solve_move_all(
     num_workers:      int = 4,
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str]:
     """
-    Tente de déplacer les cours tel que demandé dans to_move
+    Tente de déplacer les cours tel que demandé dans to_move.
 
-    Retourne (new_schedule, cancelled, status_name) :
+    Retourne (new_schedule, cancelled, moved_items, status_name) :
       - new_schedule : fixed_schedule + cours replacés (None si échec)
       - cancelled    : cours non placés
       - moved_items  : cours déplacés
@@ -935,12 +951,14 @@ def solve_all_room_change(
     num_workers:      int = 4,
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str]:
     """
-    Tente de déplacer les cours tel que demandé dans to_move
+    Tente de déplacer les cours tel que demandé dans to_change
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
 
     Retourne (new_schedule, cancelled, status_name) :
       - new_schedule : fixed_schedule + cours replacés (None si échec)
       - cancelled    : cours non placés
-      - moved_itmes  : cours déplacés dans une autre salle
+      - moved_items  : cours déplacés dans une autre salle
       - status_name  : "OPTIMAL", "FEASIBLE", "INFEASIBLE", "UNKNOWN", ...
     """
     course_map = {c.id: c for c in courses}
@@ -1170,7 +1188,7 @@ def solve_all_room_change(
 #* Solve pour des ajouts de sessions (CP-SAT)
 #*##########################################################
 def solve_all_add_sessions(
-    to_place:         List[Tuple[ScheduleItem, int, dict]],
+    to_place:         List[Tuple[ScheduleItem, int, dict]], #(item,duration,locked_info) -> locked_info contient les infos de placement (semaine, jour absolu, heure_debut) et peut etre vide
     schedule:         List[ScheduleItem],
     courses:          List[Course],
     rooms:            List[Room],
@@ -1184,7 +1202,15 @@ def solve_all_add_sessions(
     num_workers:      int = 4,
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], List[ScheduleItem], str]:
     """
-    [!] A COMPLETER
+    Ajoute des sessions à des cours déjà existant aux créneaux demandés.
+
+    global_absent : dict qui contient toutes les absences ({"teachers": {teacher_id: [(day, h_debut, h_fin), ...]}, "groups": {group_id -> [(day, h_debut, h_fin), ...] }}, "rooms":{room_name -> [(day, h_debut, h_fin), ...]})
+
+    Retourne (new_schedule, cancelled_items, moved_items, final_status) :
+      - new_schedule : schedule + sessions ajoutées
+      - cancelled_items    : sessions non ajoutées
+      - moved_items : items ajoutées
+      - final_status  : "OPTIMAL", "FEASIBLE", "INFEASIBLE", "UNKNOWN", ...
     """
     course_map = {c.id: c for c in courses}
     course_map.update({str(c.id): c for c in courses})
@@ -1518,11 +1544,16 @@ def solve_all_perturbations(
     Tente de replanifier tous les cours de to_reschedule simultanément
     en CP-SAT.
 
+    teacher_blocked : dict de tous les créneaux d'absence de chaque professeur {teacher_id: [(day, h_debut, h_fin), ...]}
+    groups_blocked : dict de tous les créneaux d'absence de chaque groupe {group_id -> [(day, h_debut, h_fin), ...] }
+    rooms_blocked : ditc de tous les créneaux d'indisponibilité de chaque salle {room_name -> [(day, h_debut, h_fin), ...]}
+    min_day : premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+    locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau (type 2).
+
     Retourne (new_schedule, cancelled, status_name) :
       - new_schedule : fixed_schedule + cours replacés (None si échec)
       - cancelled    : cours non placés
       - status_name  : "OPTIMAL", "FEASIBLE", "INFEASIBLE", "UNKNOWN", ...
-    locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau (type 2).
     """
     course_map = {c.id: c for c in courses}
     course_map.update({str(c.id): c for c in courses})
@@ -1839,9 +1870,15 @@ def resolve_all(
 ) -> Tuple[List[ScheduleItem], List[ScheduleItem], str, List[ScheduleItem]]:
     """
     Tente CP-SAT en premier.  Si le solveur échoue, repasse sur le greedy.
+
+    teacher_blocked : dict de tous les créneaux d'absence de chaque professeur {teacher_id: [(day, h_debut, h_fin), ...]}
+    groups_blocked : dict de tous les créneaux d'absence de chaque groupe {group_id -> [(day, h_debut, h_fin), ...] }
+    rooms_blocked : ditc de tous les créneaux d'indisponibilité de chaque salle {room_name -> [(day, h_debut, h_fin), ...]}
+    min_day : premier jour où on touche aux sessions lors de la résolution (le jour après "aujourd'hui")
+    locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau (type 2).
+
     Retourne (new_schedule, cancelled, status, rescheduled).
     rescheduled = items effectivement replacés avec leur nouvelle position.
-    locked_slots = {id(item): (day, heure_debut)} pour forcer jour ET créneau (type 2).
     """
     if not to_reschedule:
         return list(fixed_schedule), [], "OPTIMAL", []
