@@ -32,7 +32,7 @@ def score_no_late_day(item, course, day, slot, room,
 
 def score_no_late_day_teacher(item, course, day, slot, room,
                                occ_group, occ_teacher, lunch_slots, nb_slots_per_day) -> float:
-    """Même pénalité pour le prof (créneau tardif = mauvais pour tout le monde)."""
+    """Pénalité si le slot est dans les 2 derniers créneaux du jour (trop tardif) pour le PROFESSEUR."""
     return 1.0 if slot >= nb_slots_per_day - 2 else 0.0
 
 
@@ -52,7 +52,12 @@ def score_long_lunch(item, course, day, slot, room,
 
 def score_long_lunch_teacher(item, course, day, slot, room,
                               occ_group, occ_teacher, lunch_slots, nb_slots_per_day) -> float:
-    """Même pénalité pour le PROF."""
+    """
+    Pénalité si placement dans un lunch slot pour le PROFESSEUR.
+    Plus il y a de lunch slots déjà occupés, plus la pénalité est élevée :
+    on veut préserver un maximum de slots libres au déjeuner.
+    Retourne 0 si le slot n'est pas un slot déjeuner.
+    """
     if slot not in lunch_slots:
         return 0.0
     already = sum(1 for ls in lunch_slots if (item.teacher.id, (day, ls)) in occ_teacher)
@@ -93,7 +98,12 @@ def score_no_gap(item, course, day, slot, room,
 
 def score_no_gap_teacher(item, course, day, slot, room,
                           occ_group, occ_teacher, lunch_slots, nb_slots_per_day) -> float:
-    """Même logique pour le PROF."""
+    """
+    Impact du placement sur les trous (gaps) dans le planning du PROFESSEUR.
+    Valeur positive : crée de nouveaux gaps (mauvais).
+    Valeur négative : comble un gap existant (bon → ce placement est préféré).
+    Les slots déjeuner sont exclus du calcul des gaps.
+    """
     if slot in lunch_slots:
         return 0.0
 

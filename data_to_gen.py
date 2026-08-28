@@ -6,6 +6,9 @@ GEN_DATA = os.path.join(HERE,"Generator/Data")
 
 
 def generate_valid_gen_file(filename: str, output_filename: str, nb_weeks: int=15):
+    """
+    Conformise le fichier filename en un fichier output_filename qui peut être utilisé par le main.py dans Generator.
+    """
     filepath = os.path.join(GEN_DATA, filename)
 
     if not os.path.isfile(filepath):
@@ -16,7 +19,7 @@ def generate_valid_gen_file(filename: str, output_filename: str, nb_weeks: int=1
 
     for c in data["courses"]:
         rtype = c["room_types"][0]
-        c["sessions"] = [rtype] * (c["slots_per_week"] * nb_weeks)
+        c["sessions"] = [rtype] * (c["slots_per_week"] * nb_weeks) #Complétion de la liste dans c["sessions"] qui est vide dans filename
 
     out_path = os.path.join(GEN_DATA, output_filename)
     with open(out_path, "w", encoding="utf-8") as file:

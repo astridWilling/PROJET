@@ -1,6 +1,6 @@
 from ortools.sat.python import cp_model
-from typing import List
-from basics import Course, Teacher, Room, NoSolution, TimeOut
+from typing import List, Tuple
+from basics import Course, Teacher, Room, NoSolution, TimeOut, Constraint, Building
 
 
 class BestSolutionCallback(cp_model.CpSolverSolutionCallback):
@@ -13,14 +13,45 @@ class BestSolutionCallback(cp_model.CpSolverSolutionCallback):
         self._solutions = []
 
     def on_solution_callback(self):
+        """Appelé par CP-SAT à chaque nouvelle solution trouvée. Enregistre le score courant."""
         self._solutions.append((self.WallTime(), self.ObjectiveValue()))
 
     @property
     def solutions(self):
+        """Liste des scores enregistrés à chaque solution intermédiaire trouvée par CP-SAT."""
         return self._solutions
 
 
-def solve(courses: List[Course], rooms: List[Room], nb_days, lunch_slots=[2,3,4], nb_slots_per_day=10, constraints=None, timeout=60, record_callbacks=False, buildings=None, num_workers=4):
+def solve(courses: List[Course], 
+          rooms: List[Room], 
+          nb_days: int, 
+          lunch_slots: List[int]=[2,3,4], 
+          nb_slots_per_day: int =10, 
+          constraints: List[Constraint]=None, 
+          timeout:int=60, 
+          record_callbacks:bool=False, 
+          buildings:List[Building]=None, 
+          num_workers:int=4
+          ) -> Tuple[cp_model.CpSolver, dict, dict, dict, str, float, int, List[BestSolutionCallback] ]:
+    """
+    Solveur hebdomadaire.
+
+    constraints : listes des contraintes
+    timeout : durée de recherche accordée au solveur
+    record_callback : si True, garde en mémoire toutes les solutions trouvées par le solveur lors de sa recherche (pour une étude de convergence généralement)
+    num_workers : nombre de coeurs CPU mis à disposition du solveur
+
+    Retourne (solver, slot, time, room_var, solver.StatusName(status), score, max_searchtime, callbacks):
+      - solver : le solveur
+      - slot : dict tel que slot[(c.id, i)]   → entier dans [0, |T|×|R| - 1]   encodant (time, room)
+      - time : dict tel que time[(c.id, i)]   → entier dans [0, |T| - 1]     = créneau absolu
+      - room_var : dict tel que room_var[(c.id, i)] → entier dans [0, |R| - 1]   = index dans la liste rooms[]
+      - solver.StatusName(status) : statut du solver après résolution
+      - score : score de la meilleure solution trouvée par le solveur
+      - max_searchtime : timeout, temps de recherche maximal donné au solveur
+      - callbacks : liste des solutions trouvées par le solveur
+
+    """
 
     courses_by_group = {}
     courses_by_teacher = {}

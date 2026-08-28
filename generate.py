@@ -4,7 +4,7 @@ import sys
 
 def generate(filename:str):
     """
-    Conformise le fichier de données en un fichier d'entrée compatible avecle générateur et par la suite appelle le générateur
+    Conformise le fichier de données en un fichier d'entrée compatible avecle générateur et par la suite appelle le générateur.
     """
     
     gen_dir = os.path.join(data_to_gen.HERE,'Generator/')

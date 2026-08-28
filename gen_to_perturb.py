@@ -1,6 +1,7 @@
 import os
 import json
 from pathlib import Path
+from Perturbations.basics import *
 
 # ------- Important paths ------- #
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -18,14 +19,17 @@ def _actual_course_id(term_course_id: str):
     """
     Prend un course id créé par le term_solver de Generator et le transforme en le vrai id du cours
     """
-    id,_,_ = term_course_id.split("_")
+    id,_,_ = term_course_id.split("_") #term_solver formate les id de cours comme id_wx_sy pour un cours qui est a la semaine x et au slot y
     return int(id)
 
 def to_abs_day(week: int, day: int):
+    """Passe de (week,day) au jour absolu correspondant"""
     return week*5 + day
 
 def hm(h: str) -> int:
-    """'09h30' → 570  (minutes depuis minuit).
+    """
+    Passe d'un format linguistique de l'heure à un format en minutes depuis minuit.
+    '09h30' → 570  (minutes depuis minuit).
     Robuste : '7h' → 420, '17h3' → 1023, '9h30' → 570.
     """
     parts = h.split("h")
@@ -36,7 +40,10 @@ def hm(h: str) -> int:
     return int(hh) * 60 + int(mm)
 
 def min_to_hm(minutes: int) -> str:
-    """570 → '09h30'"""
+    """
+    Passe d'un format en minutes depuis minuit à un format linguistique.
+    570 → '09h30'
+    """
     return f"{minutes // 60:02d}h{minutes % 60:02d}"
 
 # ------- Fonctions principales ------- #
@@ -70,7 +77,7 @@ def get_timetable(filename: str):
 
 def get_specs(filename: str):
     """
-    Charge l'edt qui a été créé par le générateur
+    Charge le fichier de specs qui contient les informations de l'université
     """
     filepath = os.path.join(PER_DATA,filename)
 
@@ -82,9 +89,11 @@ def get_specs(filename: str):
 
     return specs
 
-def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
+def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str) -> List[ScheduleItem]:
     """
     Crée la liste des item d'emploi du temps qui est compatible avec Perturbations
+
+    Retourne perturb_ok : liste contenant tous les items d'emploi du temps, est compatible avec Perturbations
     """
     data = get_data(data_filename)
     edt = get_timetable(edt_filename)
@@ -162,7 +171,7 @@ def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
 
         #Test cours partagé
         it = [it for it in perturb_ok if it["course"]==courseid and it["heure_debut"]==heure_debut and it["room"]==room and it["day"]==day]        
-        if it == []:
+        if it == []: #item pas déjà enregistrée dans l'edt : cours pas partagé
             perturb_ok.append(
                 {
                     "course": courseid,
@@ -177,9 +186,7 @@ def gen_to_perturb(data_filename: str, edt_filename: str, specs_filename: str):
                 }
             )
         else:
-            it[0]["group"].append({"id": groupid,"headcount": headcount})
-
-        #Remplissage liste course pour le prof ???
+            it[0]["group"].append({"id": groupid,"headcount": headcount}) #item déjà enregistrée pour un autre groupe, donc on rajoute le groupe actuel car c'est un cours partagé
 
     return perturb_ok
 

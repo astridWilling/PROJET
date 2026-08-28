@@ -39,6 +39,7 @@ ajd = ["13"] # "" pour regarder tout l'edt
 # ------------ Types de résolution ------------ #
 cascade = ["0","1","y"]
 full_solve = ["0","2","y"]
+# ------------ Perturbations ------------ #
 perturbs = [
     "1","T_Tom","15,08h00,19h00 16,08h00,19h00 17,08h00,19h00 18,08h00,19h00 19,08h00,19h00",
     "2","GB42","25,08h00,19h00 26,8h,19h",
@@ -54,6 +55,7 @@ perturbs = [
     "9", "Elec", "1_G", "CM", "7", ""
 ]
 
+# ------------ Run complet ------------ #
 side_eff = data_filename+gen+psetup+ajd+perturbs+full_solve
 
 with patch("builtins.input", side_effect=side_eff):

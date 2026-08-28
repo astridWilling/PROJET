@@ -56,9 +56,6 @@ def week_solve(
                                       None = auto : ceil(sessions_du_groupe / nb_weeks) + 1
                                       C'est la vraie contrainte d'équilibre — dure, par groupe,
                                       calculée depuis les données. Préférer ça à un balance_weight élevé.
-    balance_weight : poids soft de l'écart à la charge moyenne globale.
-                     Doit rester comparable à ordering_weight (même ordre de grandeur).
-                     L'équilibre réel vient surtout de max_sessions_per_group_per_week.
     teacher_unavailable_weeks : dict teacher_id → liste de semaines indisponibles
                                 ex: {"T1": [2, 7, 8]}  (semaines 0-indexées)
     order_penalty : poids de la pénalité si une session est placée
@@ -69,8 +66,9 @@ def week_solve(
     balance_weight : poids de la pénalité d'écart à la charge moyenne.
                      Plus élevé → distribution plus uniforme entre semaines.
                      0 = pas de contrainte de balance.
-                     Doit être > ordering_weight pour que l'équilibre prime
+                     Doit être > ordering_weight (même ordre de grandeur) pour que l'équilibre prime
                      sur les préférences early/late/middle.
+                     L'équilibre réel vient surtout de max_sessions_per_group_per_week.
 
     Retourne
     --------

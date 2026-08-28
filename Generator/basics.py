@@ -1,4 +1,4 @@
-from typing import NamedTuple, List
+from typing import NamedTuple, List ; from ortools.sat.python import cp_model
 from dataclasses import dataclass
 import os
 
@@ -22,16 +22,32 @@ class Constraint:
     lunch_slots: List[int]
     nb_slots_per_day: int
     
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self,
+              model: cp_model.CpSolver,
+              slot: dict,
+              time: dict,
+              var_room: dict,
+              courses: List[Course],
+              groups: List[str],
+              teachers: List[Teacher],
+              courses_by_group:dict,
+              courses_by_teacher: dict,
+              rooms: List[Room],
+              nb_days: int,
+              nb_slots_per_day: int,
+              buildings: List[Building]=None
+              ) -> List[int]:
         pass
 
 # Variables du problèmes
 class Teacher(NamedTuple):
-    id : str
+    """Professeur"""
+    id : str #a terme plutot un int
     name : str
     courses : List[int]  #Que les coursid dans la liste, on fera une fonction cours.id->cours.name et une autre cours.name->cours.id (via un json/dict i guess?)
 
 class Course(NamedTuple):
+    """Cours"""
     id: int
     name : str
     teacher: Teacher
@@ -52,6 +68,7 @@ class Course(NamedTuple):
     ordering_preference: str = None
 
 class Room(NamedTuple):
+    """Salle"""
     name: str
     capacity: int
     room_types : List[str]
@@ -59,6 +76,7 @@ class Room(NamedTuple):
 
 # Emploi du temps
 class ScheduleItem(NamedTuple):
+    """Item d'emploi du temsp"""
     course: int
     group: str
     teacher: Teacher
@@ -68,6 +86,7 @@ class ScheduleItem(NamedTuple):
 
 # Batiment
 class Building(NamedTuple):
+    """Batiment"""
     id: str
     name: str
     rooms: List[Room]

@@ -3,9 +3,24 @@ from Perturbations.gestion import *
 from gen_to_perturb import *
 import os,json
 
-def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
+def get_variables(specs_filename: str,
+                  edt_filename: str,
+                  data_filename: str
+                  ) -> Tuple[List[Group],List[Teacher], List[Course], List[Department], List[Room], List[Building], int, dict, int, int]:
     """
-    Retourne les listes des objets et variables importantes telles que course_list, deadline_days...
+    Crée les listes des objets et variables importantes pour la perturbation telles que course_list, deadline_days...
+
+    Retourne (groups_list, teachers_list, courses_list, dept_list, rooms_list, buildings_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN):
+      - groups_list : liste des groupes
+      - teachers_list : liste des professeurs
+      - courses_list : liste des cours
+      - dept_list : liste des départements
+      - rooms_list : listes des salles
+      - buildings_list : liste des bâtiments
+      - nb_days : nombre de jours dans l'emploi du temps
+      - deadline_days : dict qui associe à chaque cours, le jour de son examen final {course.id: excam_day}
+      - LUNCH_DEBUT_MIN : minute à laquelle la période de déjeuner commence
+      - LUNCH_FIN_MIN : minute à laquelle la période de déjeuner finit
     """
     sfilepath = os.path.join(PER_DATA, specs_filename)
     efilepath = os.path.join(PER_EDT, edt_filename)
@@ -108,9 +123,24 @@ def get_variables(specs_filename: str, edt_filename: str, data_filename: str):
 
     return groups_list, teachers_list, courses_list, dept_list, rooms_list, buildings_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN
 
-def extraction(specs_filename: str, data_filename: str, edt_filename: str):
+def extraction(specs_filename: str,
+               data_filename: str,
+               edt_filename: str
+               ) -> Tuple[List[ScheduleItem], List[Course], List[Room], List[Teacher], List[Building], List[Group], int, dict, int, int]:
     """
     Extrait toutes les informations nécessaires à la gestion des perturbations, et crée les objets correspondants
+
+    Retourne (schedule, c_list, r_list, t_list, b_list, g_list, nb_days, deadline_days, LD, LF):
+      - schedule : Emploi du temps
+      - c_list : liste des cours
+      - r_list : liste des salles
+      - t_list : liste des professeurs
+      - b_list : liste des bâtiments
+      - g_list : liste des groupes
+      - nb_days : nombre de jours dans l'emploi du temps
+      - deadline_days : dict qui associe à chaque cours, le jour de son examen final {course.id: excam_day}
+      - LD : LUNCH_DEBUT_MIN, minute à laquelle la période de déjeuner commence
+      - LF : LUNCH_FIN_MIN, minute à laquelle la période de déjeuner finit
     """
     g_list, t_list, c_list, d_list, r_list, b_list, nb_days, deadline_days, LD, LF = get_variables(specs_filename,edt_filename+".json",data_filename)
     schedule = load_edt(edt_filename)

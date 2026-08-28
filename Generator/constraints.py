@@ -1,4 +1,5 @@
 from basics import Constraint
+from typing import List
 
 
 ALL_CONSTRAINTS = {}
@@ -15,21 +16,26 @@ CONSTRAINT_ABBR = {
 }
 
 def register(cls):
+    """Ajoute la contrainte à ALL_CONSTRAINT"""
     ALL_CONSTRAINTS[cls.__name__] = cls
     return cls
 
 
 
 def activate(c: Constraint):
+    """Permet d'activer la contrainte c"""
     c.is_active = True
 
 def deactivate(c: Constraint):
+    """Permet de désactiver la contrainte c"""
     c.is_active = False
 
 def harden(c: Constraint):
+    """Permet de rendre dure la contrainte c"""
     c.is_hard = True
 
 def soften(c: Constraint):
+    """Permet de rendre souple la contrainte c"""
     c.is_hard = False
 
 
@@ -52,11 +58,18 @@ def soften(c: Constraint):
 
 @register
 class LongLunch(Constraint):
+    """
+    Evite les pauses déjeuner trop courtes si len(lunch_slots) > 4, évite les pauses déjeuner fractionnées (ex: libre,cours,libre) si len(lunch_slots) <= 4
+    """
 
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         if  len(self.lunch_slots)<=4:  # On pénalise le nb de transitions cours/libre pour en avoir le moins possible
@@ -142,11 +155,18 @@ class LongLunch(Constraint):
 
 @register
 class NoGap(Constraint):
+    """
+    Evite trop de trous dans les journées
+    """
 
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         for g in groups:
@@ -194,10 +214,17 @@ class NoGap(Constraint):
 
 @register
 class NoLateDay(Constraint):
+    """
+    Evite les fins de journées trop tardives
+    """
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         for g in groups:
@@ -221,6 +248,9 @@ class NoLateDay(Constraint):
 
 @register
 class Closer(Constraint):
+    """
+    Evite d'avoir des bâtiments trop éloignés pour deux cours à la suite
+    """
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10, threshold=5):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
         self.threshold = threshold  # distance en minutes au-delà de laquelle on pénalise
@@ -229,7 +259,11 @@ class Closer(Constraint):
     # time[(c.id, i)]   → entier dans [0, |T| - 1]         = créneau absolu
     # var_room[(c.id, i)] → entier dans [0, |R| - 1]       = index dans la liste rooms[]
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         if not buildings:
             return []
 
@@ -326,11 +360,18 @@ class Closer(Constraint):
 
 @register
 class LongLunchTeacher(Constraint):
+    """
+    Evite les pauses déjeuner trop courtes si len(lunch_slots) > 4, évite les pauses déjeuner fractionnées (ex: libre,cours,libre) si len(lunch_slots) <= 4 pour les professeurs
+    """
 
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         if  len(self.lunch_slots)<=4:  # On pénalise le nb de transitions cours/libre pour en avoir le moins possible
@@ -414,11 +455,18 @@ class LongLunchTeacher(Constraint):
 
 @register
 class NoGapTeacher(Constraint):
+    """
+    Evite trop de trous dans les journées pour les professeurs
+    """
 
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         for teach in teachers:
@@ -454,13 +502,20 @@ class NoGapTeacher(Constraint):
         return penalties
     
 
-
 @register
 class NoLateDayTeacher(Constraint):  # Pour moi pas nécessaire car on implémentera une contrainte Unavailable donc ca pourrait etre redondant
+    """
+    Evite les fins de journées trop tardives pour les professeurs
+    """
+
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         penalties = []
 
         for teach in teachers:
@@ -484,11 +539,19 @@ class NoLateDayTeacher(Constraint):  # Pour moi pas nécessaire car on implémen
 
 @register
 class CloserTeacher(Constraint):
+    """
+    Evite d'avoir des bâtiments trop éloignés pour deux cours à la suite pour les professeurs
+    """
+    
     def __init__(self, is_hard=False, is_active=True, weight=3, lunch_slots=None, nb_slots_per_day=10, threshold=5):
         super().__init__(is_hard=is_hard, is_active=is_active, weight=weight, lunch_slots=lunch_slots, nb_slots_per_day=nb_slots_per_day)
         self.threshold = threshold
 
-    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None):
+    def apply(self, model, slot, time, var_room, courses, groups, teachers, courses_by_group, courses_by_teacher, rooms, nb_days, nb_slots_per_day, buildings=None) -> List[int]:
+        """
+        Applique la contrainte aux variables slot, time et var_room
+        Retourne une liste de pénalités (IntVar*poids) à ajouter à l'objectif CP-SAT, un par slot concerné. Retourne [] si la contrainte ne s'applique pas.
+        """
         if not buildings:
             return []
 

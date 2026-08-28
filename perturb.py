@@ -11,6 +11,14 @@ from Perturbations.scorers import make_default_scorers, evaluate_perturbation, c
 from Perturbations.scorers import (score_same_day, score_no_late_group, score_no_late_teacher,
                      score_no_gap_group, score_preferred_building)
 
+"""
+Conformise un emploi du temps généré par le module Generator, 
+Extrait de cet emploi du temps et des fichiers informatifs (data_instance.json et specs.json) les variables utiles pour la perturbation,
+Saisie des perturbations et résolution
+
+Ce fichier est une version adaptée du main du module Perturbations.
+"""
+
 # ---------------------------------------------------------------------------
 # Configuration des soft scorers
 # Modifier les poids ou commenter/supprimer des lignes pour personnaliser.
@@ -30,6 +38,8 @@ STATIC_SCORERS = [
 CLOSER_GROUP_WEIGHT   = 0.4
 CLOSER_TEACHER_WEIGHT = 0.3
 
+
+# ------------------- Conformisation du fichier emploi du temps généré par Generator en un fichier compatible avec Perturbations ---------------------------- #
 d = input(">>> Donner le nom du fichier de data (qui est dans Generator/Data) : > ")
 data_filename = os.path.join(gen_to_perturb.GEN_DATA,d)
 s = input(">>> Donner le nom du fichier de specs (qui est dans Perturbations/Data) : > ")
@@ -44,7 +54,7 @@ gen_to_perturb.create_compatible(data_filename,edt_filename,specs_filename,outpu
 
 
 # ---------------------------------------------------------------------------
-# Création des variables globales pour la résolution faite dans extractor.py
+# Création des variables globales pour la résolution faite dans extractor_project.py
 # ---------------------------------------------------------------------------
 edt, courses_list, rooms_list, teachers_list, buildings_list, groups_list, nb_days, deadline_days, LUNCH_DEBUT_MIN, LUNCH_FIN_MIN = extractor_project.extraction(specs_filename=specs_filename,data_filename=data_filename,edt_filename=o.split(".")[0])
 affichage_html_complet(edt, nb_days=nb_days, courses=courses_list, rooms=rooms_list, filename=o.split(".")[0]+".html", lunch_debut_min=LUNCH_DEBUT_MIN, lunch_fin_min=LUNCH_FIN_MIN, deadline_days=deadline_days)
@@ -100,6 +110,12 @@ def _item_has_group(item, grp_id: str) -> bool:
     return False
 
 def _item_has_group_broad(item, grp_id):
+    """
+    True si l'item concerne grp_id (exact), un de ses sous-groupes,
+    ou si grp_id est vide (aucun filtre, retourne toujours True).
+    Contrairement à _item_has_group, cherche les sous-groupes de grp_id
+    et non les sous-groupes des groupes de l'item.
+    """
     if not grp_id:           # vide = on ne filtre pas, on prend tous les groupes
         return True
     parent = next((g for g in groups_list if g.id == grp_id), None) # Cherche le groupe qui a le bon id parmi groups_list
